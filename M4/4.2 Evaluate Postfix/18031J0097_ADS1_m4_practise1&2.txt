@@ -1,0 +1,95 @@
+Activity4
+
+Give the output printed by java Stack for the input (where "-" means pop) 
+it was - the best - of times - - - it was - the - -
+Output:
+Step 1: push “it”
+      it
+
+
+Step 2: push “was”
+     was
+      It
+
+
+Step 3:”- “means pop 
+    it
+Was 
+Step 4:push “the”
+     the
+     it
+was
+
+
+step 5: push “best”
+    best
+     The
+     it
+was
+
+step 6: pop 
+    the
+    it
+was best
+
+
+Step7:push “of”
+        of
+	The
+	it
+Was best
+
+
+Step8: push “times”
+	times
+	Of
+	The
+	it
+Was best
+
+Step 9: pop(3 times)
+	it
+Was best times of the
+
+Step 10: push “it”
+	it
+	it
+
+Was best times of the
+
+Step11: push “was”
+	was
+	it
+	it
+Was best times of the
+
+Step12: pop
+	it
+	it
+Was best times of the was
+
+
+Step13: push “the”
+	the
+	it
+	it
+Was best times of the was
+
+
+Step14: pop(2times)
+
+	it
+Was best times of the was the it
+
+
+
+Activity5
+
+a. 4 3 2 1 0 9 8 7 6 5 - true
+b. 4 6 8 7 5 3 2 9 0 1 - false
+c. 2 5 6 7 4 8 9 3 1 0 - true
+d. 4 3 2 1 0 5 6 7 8 9 - true
+e. 1 2 3 4 5 6 9 8 7 0 - true
+f. 0 4 6 5 3 8 1 7 2 9 - false
+g. 1 4 7 9 8 6 5 3 0 2 - false
+h. 2 1 4 3 6 5 8 7 9 0 - true
