@@ -1,0 +1,132 @@
+Fill in the blanks-1 	Section 1					Time 1 hour
+Instructions:
+1.	If the output has multiple values/ multiple new line values write it as comma space separated.
+2.	use the following Notations for writing Complexity Answers: N, 1, log(N), N^2, N*log(N), 2^N, N^3, log(N)
+
+
+1. What does the following code fragment print when N is 50 ?
+ Answer: N
+2.Give the output printed by Queue for the input at the end of all operations
+If “-” perform dequeue else enqueue each word.
+Playing Cricket - is - a hobby - - of - - mentor – Deepak
+
+Answer:
+Step1 :Enqueue
+Playing
+
+Step2:enqueue
+cricket	playing
+
+Step3:dequeue -playing
+cricket
+
+is	cricket
+Step4:enqueue
+
+Step5: dequeue – cricket
+is
+
+Step6: enqueue
+a	is
+
+Step7: enqueue
+hobby	a	is
+
+Step8: dequeue - is
+hobby	a
+
+Step9:dequeue -a
+hobby
+
+Step10:enqueue
+of	hobby
+
+Step 11:dequeue-hobby
+of
+
+Step12:dequeu-of
+Step13:enqueue
+mentor
+
+Step14:dequeue-mentor
+Step15:enqueu
+deepak
+Step16:dequeue –deepak
+Finally queue is empty
+
+3.	Suppose that a client performs an intermixed sequence of (stack) push and pop operations. The push operations put the integers 0 through 9 in order onto the stack; the pop operations print out the return values. Which of the following sequence(s) could not occur?
+Note: For answer write the options in order separated with comma and space eg: a, b, d 
+a. 5 4 3 1 2 0 9 8 7 6
+b. 0 9 8 7 6 5 4 3 2 1
+c. 0 1 2 3 4 5 6 7 8 9
+d. 1 3 5 7 9 2 4 6 8 0
+e. 1 5 0 2 3 4 6 7 8 9
+Answer: a,d,e
+
+4. Give the minimum and maximum occupancy percentages for resizing arrays?
+Give the number of components remain at the end of Quick Find Algorithm for the following union operations.
+a. 3-4
+b. 4-9
+c. 8-0
+d. 2-3
+e. 5-6
+f. 5-9
+g. 7-3
+h. 4-8
+i. 6-1
+Answer:                    0 1 2 3 4 5 6 7 8 9
+                           1 1 1 1 1 1 1 1 1 1
+max size:10
+min size:1
+			
+5.{[]()} If you use stacks for checking parentheses balanced or not ? After each iteration, Print the size of the stack.
+Answer: yes, it is balanced parentheses.
+Step1:push {
+Size of stack: top=0
+Step2:push [
+Size of stack: top=1
+Step3 :pop
+Size of stack : top=0
+Step4:push
+Size of stack top=1
+Step5:pop
+Size of stack top=0
+Step 6: pop
+Size of stack top=-1 
+
+6. Give the order of growth (as a function of N, k ) of the running times of the following code fragment:
+Answer: 2 logN
+ 
+7. Give the order of growth (as a function of n ) of the running times of the following code fragment:
+Answer: N
+ 
+8. Give the order of growth (as a function of n ) of the running times of the following code fragment:
+Answer: N
+
+9. Give the order of growth (as a function of n ) of the running times of the following code fragment:
+Answer: N^2
+
+10. Give the number of components remain at the end of Quick Find Algorithm for the following union operations.
+a. 3-4
+b. 4-9
+c. 8-0
+d. 2-3
+e. 5-6
+f. 5-9
+g. 7-3
+h. 4-8
+i. 6-1
+Answer:
+
+0 1 2 3 4 5 6 7 8 9
+1 1 1 1 1 1 1 1 1 1
+
+Section 2								Time 3 hours
+•	Download the zip file to find the question and testcases; the directory structure is similar to the sample-assignment seen in the previous activity
+•	Add a subfolder m6 for Module 6
+•	Unzip the starter code into m6 folder. You should see a folder with the name Assignment-1
+•	You should write your solution in the file Solution.java
+•	There are a few lines of code to handle the input testcases
+•	After you write the code use eval to check if you got all the testcases right
+•	submit commit ID in the textbox below.
+
