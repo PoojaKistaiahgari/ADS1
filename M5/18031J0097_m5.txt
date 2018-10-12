@@ -1,0 +1,52 @@
+Activity4
+Learning by doing-1
+
+(a) 0 1 2 3 4 5 6 7 8 9 - true
+(b) 4 6 8 7 5 3 2 9 0 1 - false
+(c) 2 5 6 7 4 8 9 3 1 0 - false
+(d) 4 3 2 1 0 5 6 7 8 9 - false
+
+Learning by doing-2
+
+What does the following code fragment do to the queue q?
+Stack stack = new Stack();
+
+while (!q.isEmpty())
+
+stack.push(q.dequeue());
+
+while (!stack.isEmpty())
+
+q.enqueue(stack.pop());
+
+queque elements:
+10 20 30 40
+f         r
+dequeue elements:
+elements: 10 20 30 40
+20 30 40
+f      r
+30 40
+f   r
+40
+f,r
+queue is empty
+Stack element(push):
+10
+top
+20 10
+top
+30 20 10
+top
+40 30 20 10
+top
+stack element(pop):
+elements: 40 30 20 10
+          top
+30 20 10
+top
+20 10
+top
+10
+top
+stack is empty
