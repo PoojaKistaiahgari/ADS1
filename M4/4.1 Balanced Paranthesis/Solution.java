@@ -1,5 +1,4 @@
 
-
 import java.util.Scanner;
 
 public class Solution {
@@ -49,40 +48,34 @@ public static void main(String args[])
 	Scanner s=new Scanner(System.in);
     String a =s.nextLine() ;
     int n=a.length();
-    String d[]= a.split(" ");
-    int n3=0;
 	Solution st=new Solution(n);
-	for(int i = 0;i<d.length;i++)
+	for(int i = 0;i<n;i++)
 	{
-	if(d[i].equals("*"))
-	{
-		int o1=st.pop();
-		int o2=st.pop();
-		n3=o1*o2;
-		st.push(n3);
+		char ch =a.charAt(i);
+	      if (ch == '(' || ch == '[' || ch == '{')
+	        st.push(i);
+	      else if (ch == ')'|| ch == ']' || ch == '}')
+	      {
+	        //nothing to match with
+	        /*if(st.isEmpty())
+	        {  
+	          System.out.println(false);
+	        }*/
+	        if(st.pop() != ch)
+	        { 
+	        	//System.out.println(false);
+	        } 
 
-	}
-	else if(d[i].equals("+"))
-	{
-		int o1=st.pop();
-		int o2=st.pop();
-		n3=o1+o2;
-		st.push(n3);
-	}
-	else if(d[i].equals("-"))
-	{
-		int o1=st.pop();
-		int o2=st.pop();
-		n3=o1-o2;
-		st.push(n3);
-	}
-	else
-	{
-	    int k=Integer.parseInt(d[i]);
-		st.push(k);
-	}
-	}
+	      }            
+	    }
+	    if (st.isEmpty())
+	    {
+	    	System.out.println(true);
+	    }
+	    else
+	    {
+	    	System.out.println(false);
+	    }
+	  }
+}
 
-	System.out.println(st.pop());
-}
-}
