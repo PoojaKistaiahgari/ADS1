@@ -1,0 +1,38 @@
+Learning by doing-1
+Show, how selection sort sorts the array E A S Y Q U E S T I O N.
+ 0 1 2 3 4 5 6 7 8 9 10  11
+ E A S Y Q U E S T I  O  N
+ E A S Y Q U E S T I  O  N
+ A E S Y Q U E S T I  O  N
+ A E S Y Q U E S T I  O  N
+ A E E Y Q U S S T I  O  N
+ A E E I Q U S S T Y  O  N
+ A E E I N U S S T Y  O  Q
+ A E E I N O S S T Y  U  Q
+ A E E I N O Q S T Y  U  S
+ A E E I N O Q S S Y  U  T
+ A E E I N O Q S S T  U  Y
+ A E E I N O Q S S T  U  Y
+ A E E I N O Q S S T  U  Y
+
+Learning by doing-2
+Show, how Insertion sort sorts the array E A S Y Q U E S T I O N.
+       E A S Y Q U E S T I O N
+step1: A E S Y Q U E S T I O N
+step2: A E Q S Y U E S T I O N
+step3: A E Q S U Y E S T I O N
+step4: A E E Q S U Y S T I O N
+step5: A E E Q S S U Y T I O N
+step6: A E E Q S S T U Y I O N
+step7: A E E I Q S S T U Y O N
+step8: A E E I O Q S S T U Y N
+step9: A E E I N O Q S S T U Y 
+A E E I N O Q S S T U Y 
+
+Learning by doing-3
+Which method runs faster for an array with all keys identical, basic selection sort or basic insertion sort?
+ANSWER: I think they would be similar,but insertion sort runs fasterthan selection sort. insertion sort will be linear and the selection sort quadratic.
+
+Learning by doing-4
+Which method runs faster for an array in reverse order, basic selection sort or basic insertion sort?
+Answer: I think selection sort runs faster in reverse because we have change value everytime , so selection will be quadratic  
