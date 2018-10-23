@@ -1,0 +1,59 @@
+Learning by doing-1
+Give traces by showing how the keys E A S Y Q U E S T I O N are sorted with top-down mergesort.
+         	E A S Y Q U E S T I O N
+		E A S Y Q U    | E S T I O N
+                E A S | Y Q U
+		E | A S 
+		E| A | S
+		E| A S
+		A E S
+			Y| Q U
+			Y| Q | U
+ 			Y| Q U
+			Q U Y
+		A E S Q U Y
+				E S T |   I O N
+				E | S T
+				E | S | T
+					  I | O N
+					  I | O | N
+					  I |N O
+					  I N O
+				E I N O S T
+		  A E S Q U Y | E I N O S T
+		    A E E I N O Q S S T U Y
+
+
+Learning by doing-2
+Give traces by showing how the keys E A S Y Q U E S T I O N are sorted with bottom-up mergesort.
+				    E A S Y Q U E S T I O N 
+                                    E A   | S Y   | Q U   | E S   | T I   | O N 
+				    A | E
+					   S | Y
+						   Q | U
+							   E | S
+								   I | T
+                                                                           N | O
+				     A E S Y
+                                                      E Q S U
+								     I N O T
+
+					A E E Q S S U Y
+					
+					A E E I N O Q S S T U Y
+
+Learning by doing-3
+Give the sequence of subarray sizes in the merges performed by both the top-down and the bottom-up merge sort algorithms, for N = 39.
+Top-down mergesort:                                      39     
+               		         19                       |                       20
+			  9      |           10           |           10          |          10
+		 4   |   5       |   5       |   5        |   5       |   5       |   5       |   5
+               2 | 2 | 2 |   3   | 2 |   3   | 2 |   3    | 2 |   3   | 2 |   3   | 2 |   3   | 2 |   3
+               2 | 2 | 2 | 1 | 2 | 2 | 1 | 2 | 2 | 1 | 2  | 2 | 1 | 2 | 2 | 1 | 2 | 2 | 1 | 2 | 2 | 1 | 2
+
+Bottom-up mergesort:
+2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1
+4,4,4,4,4,4,4,4,4,3
+8,8,8,8,7
+16,16,7
+32,7
