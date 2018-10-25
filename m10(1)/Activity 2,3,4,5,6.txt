@@ -1,0 +1,100 @@
+Activity2
+
+public int count(int n) {
+  if(n <= 6){
+    return 0;
+  }
+  if(n%10 == 7){
+    return 1 + count(n/10);
+  }
+  return count(n/10);
+}
+
+Answer the following question when count method is called with different parameters.
+
+count(717) - 2
+count(7) - 1
+count(123) - 0
+count(47571) - 2
+count(99999) - 0
+
+
+Activity3
+public int triangle(int rows) {
+  if(rows == 0){
+    return 0;
+  }
+  return rows + triangle(rows-1);
+}
+
+Answer the following question when triangle method is called with different parameters.
+
+triangle(3) - 6
+triangle(2) - 3
+triangle(6) - 21
+triangle(4) - 10
+triangle(7) - 28
+
+Activity4
+
+public int bunnyEars(int bunnies)
+{
+	if(bunnies == 0)
+		return 0;
+	if(bunnies % 2 == 1)
+		return 2 + bunnyEars(bunnies-1);
+	return 3 + bunnyEars(bunnies-1);
+}
+
+Answer the following question when bunnyEars method is called with different parameters.
+
+bunnyEars(0) - 0
+bunnyEars(2) - 5
+bunnyEars(4) - 10
+bunnyEars(5) - 12
+bunnyEars(10) - 25
+
+
+Activity5
+
+public String endX(String str)
+{
+	if(str.length() == 0)
+		return str;
+	if(str.charAt(0) == 'x')
+		return endX(str.substring(1)) + 'x';
+	return str.charAt(0) + endX(str.substring(1));
+}
+
+Answer the following question when endX method is called with different parameters.
+
+endX("xxre") - rexx
+endX("xxhixx") - hixxxx
+endX("xx") - xx
+end("bxx") - bxx
+end("bxax") - baxx
+
+
+Activity6
+public String parenBit(String str)
+{
+	int len = str.length();
+	if(str.charAt(0) != '(')
+	{
+		if(str.charAt(len - 1) != ')')
+                 return parenBit(str.substring(1, len -1));
+		 return parenBit(str.substring(1));
+	}
+	if(str.charAt(len - 1) != ')')
+	  return parenBit(str.substring(0, len - 1)); 
+	 return str;
+}
+
+Answer the following question when endX method is called with different parameters.
+
+parenBit("xyz(abc)123") - (abc)
+parenBit("(xy)1") -(xy)
+parenBit("hello(not really)there") - (not really)
+parenBit("()") - ()
+parenBit("res (ipsa) loquitor") - ()
+
