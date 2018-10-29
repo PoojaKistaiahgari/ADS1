@@ -1,0 +1,265 @@
+########## Testcase 0: Passed ##########
+Expected Output: 
+true
+false
+true
+false
+
+Your Output: 
+true
+false
+true
+false
+
+----------------------------------------
+########## Testcase 1: Passed ##########
+Expected Output: 
+false
+false
+false
+false
+false
+false
+
+Your Output: 
+false
+false
+false
+false
+false
+false
+
+----------------------------------------
+########## Testcase 2: Passed ##########
+Expected Output: 
+true
+true
+true
+false
+false
+false
+true
+false
+
+Your Output: 
+true
+true
+true
+false
+false
+false
+true
+false
+
+----------------------------------------
+########## Testcase 3: Passed ##########
+Expected Output: 
+true
+false
+false
+
+Your Output: 
+true
+false
+false
+
+----------------------------------------
+########## Testcase 4: Passed ##########
+Expected Output: 
+true
+true
+false
+
+Your Output: 
+true
+true
+false
+
+----------------------------------------
+Result: 5/5 testcases passed.
+Starting audit...
+[ERROR] E:\Github\ADS1_2018\m12\13.1 isMinHeap\Solution.java:0: File does not end with a newline. [NewlineAtEndOfFile]
+[ERROR] E:\Github\ADS1_2018\m12\13.1 isMinHeap\Solution.java:3: Missing a Javadoc comment. [JavadocType]
+[ERROR] E:\Github\ADS1_2018\m12\13.1 isMinHeap\Solution.java:3:1: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]
+[ERROR] E:\Github\ADS1_2018\m12\13.1 isMinHeap\Solution.java:4:1: File contains tab characters (this is the first instance). [FileTabCharacter]
+[ERROR] E:\Github\ADS1_2018\m12\13.1 isMinHeap\Solution.java:4:9: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] E:\Github\ADS1_2018\m12\13.1 isMinHeap\Solution.java:4:33: Parameter args should be final. [FinalParameters]
+[ERROR] E:\Github\ADS1_2018\m12\13.1 isMinHeap\Solution.java:4:44: Array brackets at illegal position. [ArrayTypeStyle]
+[ERROR] E:\Github\ADS1_2018\m12\13.1 isMinHeap\Solution.java:5:9: '{' at column 2 should be on the previous line. [LeftCurly]
+[ERROR] E:\Github\ADS1_2018\m12\13.1 isMinHeap\Solution.java:6:29: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] E:\Github\ADS1_2018\m12\13.1 isMinHeap\Solution.java:6:30: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] E:\Github\ADS1_2018\m12\13.1 isMinHeap\Solution.java:7:25: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] E:\Github\ADS1_2018\m12\13.1 isMinHeap\Solution.java:7:26: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] E:\Github\ADS1_2018\m12\13.1 isMinHeap\Solution.java:8:22: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] E:\Github\ADS1_2018\m12\13.1 isMinHeap\Solution.java:8:23: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] E:\Github\ADS1_2018\m12\13.1 isMinHeap\Solution.java:9:22: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] E:\Github\ADS1_2018\m12\13.1 isMinHeap\Solution.java:9:23: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] E:\Github\ADS1_2018\m12\13.1 isMinHeap\Solution.java:10:19: 'if' is not followed by whitespace. [WhitespaceAround]
+[ERROR] E:\Github\ADS1_2018\m12\13.1 isMinHeap\Solution.java:11:17: '{' at column 3 should be on the previous line. [LeftCurly]
+[ERROR] E:\Github\ADS1_2018\m12\13.1 isMinHeap\Solution.java:12:30: 'while' is not followed by whitespace. [WhitespaceAround]
+[ERROR] E:\Github\ADS1_2018\m12\13.1 isMinHeap\Solution.java:13:25: '{' at column 4 should be on the previous line. [LeftCurly]
+[ERROR] E:\Github\ADS1_2018\m12\13.1 isMinHeap\Solution.java:14: Line has trailing spaces. [RegexpSingleline]
+[ERROR] E:\Github\ADS1_2018\m12\13.1 isMinHeap\Solution.java:15:42: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] E:\Github\ADS1_2018\m12\13.1 isMinHeap\Solution.java:15:43: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] E:\Github\ADS1_2018\m12\13.1 isMinHeap\Solution.java:16:41: Array brackets at illegal position. [ArrayTypeStyle]
+[ERROR] E:\Github\ADS1_2018\m12\13.1 isMinHeap\Solution.java:16:43: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] E:\Github\ADS1_2018\m12\13.1 isMinHeap\Solution.java:16:44: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] E:\Github\ADS1_2018\m12\13.1 isMinHeap\Solution.java:17:38: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] E:\Github\ADS1_2018\m12\13.1 isMinHeap\Solution.java:17:39: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] E:\Github\ADS1_2018\m12\13.1 isMinHeap\Solution.java:18:42: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] E:\Github\ADS1_2018\m12\13.1 isMinHeap\Solution.java:18:43: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] E:\Github\ADS1_2018\m12\13.1 isMinHeap\Solution.java:19: Line has trailing spaces. [RegexpSingleline]
+[ERROR] E:\Github\ADS1_2018\m12\13.1 isMinHeap\Solution.java:20:33: '{' at column 5 should be on the previous line. [LeftCurly]
+[ERROR] E:\Github\ADS1_2018\m12\13.1 isMinHeap\Solution.java:21:42: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] E:\Github\ADS1_2018\m12\13.1 isMinHeap\Solution.java:21:43: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] E:\Github\ADS1_2018\m12\13.1 isMinHeap\Solution.java:22: Line has trailing spaces. [RegexpSingleline]
+[ERROR] E:\Github\ADS1_2018\m12\13.1 isMinHeap\Solution.java:22:43: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] E:\Github\ADS1_2018\m12\13.1 isMinHeap\Solution.java:22:44: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] E:\Github\ADS1_2018\m12\13.1 isMinHeap\Solution.java:23: 'if' construct must use '{}'s. [NeedBraces]
+[ERROR] E:\Github\ADS1_2018\m12\13.1 isMinHeap\Solution.java:23:44: 'if' is not followed by whitespace. [WhitespaceAround]
+[ERROR] E:\Github\ADS1_2018\m12\13.1 isMinHeap\Solution.java:23:46: '==' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] E:\Github\ADS1_2018\m12\13.1 isMinHeap\Solution.java:23:46: Expression can be simplified. [SimplifyBooleanExpression]
+[ERROR] E:\Github\ADS1_2018\m12\13.1 isMinHeap\Solution.java:23:48: '==' is not followed by whitespace. [WhitespaceAround]
+[ERROR] E:\Github\ADS1_2018\m12\13.1 isMinHeap\Solution.java:28: Line has trailing spaces. [RegexpSingleline]
+[ERROR] E:\Github\ADS1_2018\m12\13.1 isMinHeap\Solution.java:29:17: '}' at column 3 should be on the same line as the next part of a multi-block statement (one that directly contains multiple blocks: if/else-if/else, do/while or try/catch/finally). [RightCurly]
+[ERROR] E:\Github\ADS1_2018\m12\13.1 isMinHeap\Solution.java:31:17: '{' at column 3 should be on the previous line. [LeftCurly]
+[ERROR] E:\Github\ADS1_2018\m12\13.1 isMinHeap\Solution.java:32:30: 'while' is not followed by whitespace. [WhitespaceAround]
+[ERROR] E:\Github\ADS1_2018\m12\13.1 isMinHeap\Solution.java:33:25: '{' at column 4 should be on the previous line. [LeftCurly]
+[ERROR] E:\Github\ADS1_2018\m12\13.1 isMinHeap\Solution.java:35:42: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] E:\Github\ADS1_2018\m12\13.1 isMinHeap\Solution.java:35:43: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] E:\Github\ADS1_2018\m12\13.1 isMinHeap\Solution.java:36:41: Array brackets at illegal position. [ArrayTypeStyle]
+[ERROR] E:\Github\ADS1_2018\m12\13.1 isMinHeap\Solution.java:36:43: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] E:\Github\ADS1_2018\m12\13.1 isMinHeap\Solution.java:36:44: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] E:\Github\ADS1_2018\m12\13.1 isMinHeap\Solution.java:37:41: Array brackets at illegal position. [ArrayTypeStyle]
+[ERROR] E:\Github\ADS1_2018\m12\13.1 isMinHeap\Solution.java:37:43: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] E:\Github\ADS1_2018\m12\13.1 isMinHeap\Solution.java:37:44: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] E:\Github\ADS1_2018\m12\13.1 isMinHeap\Solution.java:38: 'if' construct must use '{}'s. [NeedBraces]
+[ERROR] E:\Github\ADS1_2018\m12\13.1 isMinHeap\Solution.java:38:35: 'if' is not followed by whitespace. [WhitespaceAround]
+[ERROR] E:\Github\ADS1_2018\m12\13.1 isMinHeap\Solution.java:38:44: '==' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] E:\Github\ADS1_2018\m12\13.1 isMinHeap\Solution.java:38:46: '==' is not followed by whitespace. [WhitespaceAround]
+[ERROR] E:\Github\ADS1_2018\m12\13.1 isMinHeap\Solution.java:41:36: 'for' is not followed by whitespace. [WhitespaceAround]
+[ERROR] E:\Github\ADS1_2018\m12\13.1 isMinHeap\Solution.java:41:42: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] E:\Github\ADS1_2018\m12\13.1 isMinHeap\Solution.java:41:43: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] E:\Github\ADS1_2018\m12\13.1 isMinHeap\Solution.java:41:45: ';' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] E:\Github\ADS1_2018\m12\13.1 isMinHeap\Solution.java:41:46: '<' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] E:\Github\ADS1_2018\m12\13.1 isMinHeap\Solution.java:41:47: '<' is not followed by whitespace. [WhitespaceAround]
+[ERROR] E:\Github\ADS1_2018\m12\13.1 isMinHeap\Solution.java:41:56: ';' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] E:\Github\ADS1_2018\m12\13.1 isMinHeap\Solution.java:42:33: '{' at column 5 should be on the previous line. [LeftCurly]
+[ERROR] E:\Github\ADS1_2018\m12\13.1 isMinHeap\Solution.java:43:45: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] E:\Github\ADS1_2018\m12\13.1 isMinHeap\Solution.java:43:46: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] E:\Github\ADS1_2018\m12\13.1 isMinHeap\Solution.java:45:38: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] E:\Github\ADS1_2018\m12\13.1 isMinHeap\Solution.java:45:39: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] E:\Github\ADS1_2018\m12\13.1 isMinHeap\Solution.java:46:42: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] E:\Github\ADS1_2018\m12\13.1 isMinHeap\Solution.java:46:43: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] E:\Github\ADS1_2018\m12\13.1 isMinHeap\Solution.java:47: Line has trailing spaces. [RegexpSingleline]
+[ERROR] E:\Github\ADS1_2018\m12\13.1 isMinHeap\Solution.java:48:33: '{' at column 5 should be on the previous line. [LeftCurly]
+[ERROR] E:\Github\ADS1_2018\m12\13.1 isMinHeap\Solution.java:49:42: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] E:\Github\ADS1_2018\m12\13.1 isMinHeap\Solution.java:49:43: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] E:\Github\ADS1_2018\m12\13.1 isMinHeap\Solution.java:50: Line has trailing spaces. [RegexpSingleline]
+[ERROR] E:\Github\ADS1_2018\m12\13.1 isMinHeap\Solution.java:50:43: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] E:\Github\ADS1_2018\m12\13.1 isMinHeap\Solution.java:50:44: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] E:\Github\ADS1_2018\m12\13.1 isMinHeap\Solution.java:51: 'if' construct must use '{}'s. [NeedBraces]
+[ERROR] E:\Github\ADS1_2018\m12\13.1 isMinHeap\Solution.java:51:44: 'if' is not followed by whitespace. [WhitespaceAround]
+[ERROR] E:\Github\ADS1_2018\m12\13.1 isMinHeap\Solution.java:51:46: '==' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] E:\Github\ADS1_2018\m12\13.1 isMinHeap\Solution.java:51:46: Expression can be simplified. [SimplifyBooleanExpression]
+[ERROR] E:\Github\ADS1_2018\m12\13.1 isMinHeap\Solution.java:51:48: '==' is not followed by whitespace. [WhitespaceAround]
+[ERROR] E:\Github\ADS1_2018\m12\13.1 isMinHeap\Solution.java:57: 'if' construct must use '{}'s. [NeedBraces]
+[ERROR] E:\Github\ADS1_2018\m12\13.1 isMinHeap\Solution.java:57:27: 'if' is not followed by whitespace. [WhitespaceAround]
+[ERROR] E:\Github\ADS1_2018\m12\13.1 isMinHeap\Solution.java:57:29: '!=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] E:\Github\ADS1_2018\m12\13.1 isMinHeap\Solution.java:57:31: '!=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] E:\Github\ADS1_2018\m12\13.1 isMinHeap\Solution.java:59: Line has trailing spaces. [RegexpSingleline]
+[ERROR] E:\Github\ADS1_2018\m12\13.1 isMinHeap\Solution.java:61: Line has trailing spaces. [RegexpSingleline]
+[ERROR] E:\Github\ADS1_2018\m12\13.1 isMinHeap\Solution.java:62: Line has trailing spaces. [RegexpSingleline]
+[ERROR] E:\Github\ADS1_2018\m12\13.1 isMinHeap\Solution.java:63: Line has trailing spaces. [RegexpSingleline]
+[ERROR] E:\Github\ADS1_2018\m12\13.1 isMinHeap\Solution.java:64: Line has trailing spaces. [RegexpSingleline]
+[ERROR] E:\Github\ADS1_2018\m12\13.1 isMinHeap\Solution.java:64:1: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] E:\Github\ADS1_2018\m12\13.1 isMinHeap\Solution.java:64:24: Parameter arr should be final. [FinalParameters]
+[ERROR] E:\Github\ADS1_2018\m12\13.1 isMinHeap\Solution.java:64:34: Array brackets at illegal position. [ArrayTypeStyle]
+[ERROR] E:\Github\ADS1_2018\m12\13.1 isMinHeap\Solution.java:64:38: Parameter n should be final. [FinalParameters]
+[ERROR] E:\Github\ADS1_2018\m12\13.1 isMinHeap\Solution.java:64:45: Parameter i should be final. [FinalParameters]
+[ERROR] E:\Github\ADS1_2018\m12\13.1 isMinHeap\Solution.java:65: Line has trailing spaces. [RegexpSingleline]
+[ERROR] E:\Github\ADS1_2018\m12\13.1 isMinHeap\Solution.java:65:1: '{' at column 1 should be on the previous line. [LeftCurly]
+[ERROR] E:\Github\ADS1_2018\m12\13.1 isMinHeap\Solution.java:66: Line has trailing spaces. [RegexpSingleline]
+[ERROR] E:\Github\ADS1_2018\m12\13.1 isMinHeap\Solution.java:67: Line has trailing spaces. [RegexpSingleline]
+[ERROR] E:\Github\ADS1_2018\m12\13.1 isMinHeap\Solution.java:67:14: '*' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] E:\Github\ADS1_2018\m12\13.1 isMinHeap\Solution.java:67:15: '*' is not followed by whitespace. [WhitespaceAround]
+[ERROR] E:\Github\ADS1_2018\m12\13.1 isMinHeap\Solution.java:68: Line has trailing spaces. [RegexpSingleline]
+[ERROR] E:\Github\ADS1_2018\m12\13.1 isMinHeap\Solution.java:68:14: '*' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] E:\Github\ADS1_2018\m12\13.1 isMinHeap\Solution.java:68:15: '*' is not followed by whitespace. [WhitespaceAround]
+[ERROR] E:\Github\ADS1_2018\m12\13.1 isMinHeap\Solution.java:70: 'if' construct must use '{}'s. [NeedBraces]
+[ERROR] E:\Github\ADS1_2018\m12\13.1 isMinHeap\Solution.java:70:7: 'if' is not followed by whitespace. [WhitespaceAround]
+[ERROR] E:\Github\ADS1_2018\m12\13.1 isMinHeap\Solution.java:70:9: '<' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] E:\Github\ADS1_2018\m12\13.1 isMinHeap\Solution.java:70:10: '<' is not followed by whitespace. [WhitespaceAround]
+[ERROR] E:\Github\ADS1_2018\m12\13.1 isMinHeap\Solution.java:70:11: '&&' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] E:\Github\ADS1_2018\m12\13.1 isMinHeap\Solution.java:70:13: '&&' is not followed by whitespace. [WhitespaceAround]
+[ERROR] E:\Github\ADS1_2018\m12\13.1 isMinHeap\Solution.java:70:43: '<' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] E:\Github\ADS1_2018\m12\13.1 isMinHeap\Solution.java:70:44: '<' is not followed by whitespace. [WhitespaceAround]
+[ERROR] E:\Github\ADS1_2018\m12\13.1 isMinHeap\Solution.java:72: Line has trailing spaces. [RegexpSingleline]
+[ERROR] E:\Github\ADS1_2018\m12\13.1 isMinHeap\Solution.java:73: 'if' construct must use '{}'s. [NeedBraces]
+[ERROR] E:\Github\ADS1_2018\m12\13.1 isMinHeap\Solution.java:73: Line has trailing spaces. [RegexpSingleline]
+[ERROR] E:\Github\ADS1_2018\m12\13.1 isMinHeap\Solution.java:73:48: '<' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] E:\Github\ADS1_2018\m12\13.1 isMinHeap\Solution.java:73:49: '<' is not followed by whitespace. [WhitespaceAround]
+[ERROR] E:\Github\ADS1_2018\m12\13.1 isMinHeap\Solution.java:76: Line has trailing spaces. [RegexpSingleline]
+[ERROR] E:\Github\ADS1_2018\m12\13.1 isMinHeap\Solution.java:77: Line has trailing spaces. [RegexpSingleline]
+[ERROR] E:\Github\ADS1_2018\m12\13.1 isMinHeap\Solution.java:77:5: '{' at column 5 should be on the previous line. [LeftCurly]
+[ERROR] E:\Github\ADS1_2018\m12\13.1 isMinHeap\Solution.java:78: Line has trailing spaces. [RegexpSingleline]
+[ERROR] E:\Github\ADS1_2018\m12\13.1 isMinHeap\Solution.java:79: Line has trailing spaces. [RegexpSingleline]
+[ERROR] E:\Github\ADS1_2018\m12\13.1 isMinHeap\Solution.java:80: Line has trailing spaces. [RegexpSingleline]
+[ERROR] E:\Github\ADS1_2018\m12\13.1 isMinHeap\Solution.java:82: Line has trailing spaces. [RegexpSingleline]
+[ERROR] E:\Github\ADS1_2018\m12\13.1 isMinHeap\Solution.java:83: Line has trailing spaces. [RegexpSingleline]
+[ERROR] E:\Github\ADS1_2018\m12\13.1 isMinHeap\Solution.java:84: Line has trailing spaces. [RegexpSingleline]
+[ERROR] E:\Github\ADS1_2018\m12\13.1 isMinHeap\Solution.java:85: Line has trailing spaces. [RegexpSingleline]
+[ERROR] E:\Github\ADS1_2018\m12\13.1 isMinHeap\Solution.java:86: Line has trailing spaces. [RegexpSingleline]
+[ERROR] E:\Github\ADS1_2018\m12\13.1 isMinHeap\Solution.java:89: Line has trailing spaces. [RegexpSingleline]
+[ERROR] E:\Github\ADS1_2018\m12\13.1 isMinHeap\Solution.java:89:1: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] E:\Github\ADS1_2018\m12\13.1 isMinHeap\Solution.java:89:25: Parameter arr should be final. [FinalParameters]
+[ERROR] E:\Github\ADS1_2018\m12\13.1 isMinHeap\Solution.java:89:35: Array brackets at illegal position. [ArrayTypeStyle]
+[ERROR] E:\Github\ADS1_2018\m12\13.1 isMinHeap\Solution.java:89:39: Parameter n should be final. [FinalParameters]
+[ERROR] E:\Github\ADS1_2018\m12\13.1 isMinHeap\Solution.java:89:46: Parameter i should be final. [FinalParameters]
+[ERROR] E:\Github\ADS1_2018\m12\13.1 isMinHeap\Solution.java:90: Line has trailing spaces. [RegexpSingleline]
+[ERROR] E:\Github\ADS1_2018\m12\13.1 isMinHeap\Solution.java:90:1: '{' at column 1 should be on the previous line. [LeftCurly]
+[ERROR] E:\Github\ADS1_2018\m12\13.1 isMinHeap\Solution.java:91: Line has trailing spaces. [RegexpSingleline]
+[ERROR] E:\Github\ADS1_2018\m12\13.1 isMinHeap\Solution.java:92: Line has trailing spaces. [RegexpSingleline]
+[ERROR] E:\Github\ADS1_2018\m12\13.1 isMinHeap\Solution.java:92:14: '*' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] E:\Github\ADS1_2018\m12\13.1 isMinHeap\Solution.java:92:15: '*' is not followed by whitespace. [WhitespaceAround]
+[ERROR] E:\Github\ADS1_2018\m12\13.1 isMinHeap\Solution.java:93: Line has trailing spaces. [RegexpSingleline]
+[ERROR] E:\Github\ADS1_2018\m12\13.1 isMinHeap\Solution.java:93:14: '*' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] E:\Github\ADS1_2018\m12\13.1 isMinHeap\Solution.java:93:15: '*' is not followed by whitespace. [WhitespaceAround]
+[ERROR] E:\Github\ADS1_2018\m12\13.1 isMinHeap\Solution.java:95: Line has trailing spaces. [RegexpSingleline]
+[ERROR] E:\Github\ADS1_2018\m12\13.1 isMinHeap\Solution.java:96: Line has trailing spaces. [RegexpSingleline]
+[ERROR] E:\Github\ADS1_2018\m12\13.1 isMinHeap\Solution.java:97: 'if' construct must use '{}'s. [NeedBraces]
+[ERROR] E:\Github\ADS1_2018\m12\13.1 isMinHeap\Solution.java:97:7: 'if' is not followed by whitespace. [WhitespaceAround]
+[ERROR] E:\Github\ADS1_2018\m12\13.1 isMinHeap\Solution.java:97:9: '<' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] E:\Github\ADS1_2018\m12\13.1 isMinHeap\Solution.java:97:10: '<' is not followed by whitespace. [WhitespaceAround]
+[ERROR] E:\Github\ADS1_2018\m12\13.1 isMinHeap\Solution.java:97:11: '&&' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] E:\Github\ADS1_2018\m12\13.1 isMinHeap\Solution.java:97:13: '&&' is not followed by whitespace. [WhitespaceAround]
+[ERROR] E:\Github\ADS1_2018\m12\13.1 isMinHeap\Solution.java:97:19: '<' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] E:\Github\ADS1_2018\m12\13.1 isMinHeap\Solution.java:97:20: '<' is not followed by whitespace. [WhitespaceAround]
+[ERROR] E:\Github\ADS1_2018\m12\13.1 isMinHeap\Solution.java:100: Line has trailing spaces. [RegexpSingleline]
+[ERROR] E:\Github\ADS1_2018\m12\13.1 isMinHeap\Solution.java:101: 'if' construct must use '{}'s. [NeedBraces]
+[ERROR] E:\Github\ADS1_2018\m12\13.1 isMinHeap\Solution.java:101: Line has trailing spaces. [RegexpSingleline]
+[ERROR] E:\Github\ADS1_2018\m12\13.1 isMinHeap\Solution.java:101:24: '<' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] E:\Github\ADS1_2018\m12\13.1 isMinHeap\Solution.java:101:25: '<' is not followed by whitespace. [WhitespaceAround]
+[ERROR] E:\Github\ADS1_2018\m12\13.1 isMinHeap\Solution.java:104: Line has trailing spaces. [RegexpSingleline]
+[ERROR] E:\Github\ADS1_2018\m12\13.1 isMinHeap\Solution.java:105: Line has trailing spaces. [RegexpSingleline]
+[ERROR] E:\Github\ADS1_2018\m12\13.1 isMinHeap\Solution.java:106: Line has trailing spaces. [RegexpSingleline]
+[ERROR] E:\Github\ADS1_2018\m12\13.1 isMinHeap\Solution.java:106:5: '{' at column 5 should be on the previous line. [LeftCurly]
+[ERROR] E:\Github\ADS1_2018\m12\13.1 isMinHeap\Solution.java:107: Line has trailing spaces. [RegexpSingleline]
+[ERROR] E:\Github\ADS1_2018\m12\13.1 isMinHeap\Solution.java:108: Line has trailing spaces. [RegexpSingleline]
+[ERROR] E:\Github\ADS1_2018\m12\13.1 isMinHeap\Solution.java:109: Line has trailing spaces. [RegexpSingleline]
+[ERROR] E:\Github\ADS1_2018\m12\13.1 isMinHeap\Solution.java:111: Line has trailing spaces. [RegexpSingleline]
+[ERROR] E:\Github\ADS1_2018\m12\13.1 isMinHeap\Solution.java:112: Line has trailing spaces. [RegexpSingleline]
+[ERROR] E:\Github\ADS1_2018\m12\13.1 isMinHeap\Solution.java:113: Line has trailing spaces. [RegexpSingleline]
+[ERROR] E:\Github\ADS1_2018\m12\13.1 isMinHeap\Solution.java:114: Line has trailing spaces. [RegexpSingleline]
+[ERROR] E:\Github\ADS1_2018\m12\13.1 isMinHeap\Solution.java:115: Line has trailing spaces. [RegexpSingleline]
+[ERROR] E:\Github\ADS1_2018\m12\13.1 isMinHeap\Solution.java:116: Line has trailing spaces. [RegexpSingleline]
+Audit done.
+Checkstyle ends with 175 errors.
+
+
+[master 6392465] "check_style_score -> 5 of 5 passed. style score: 0/1 "
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 m12/13.1 isMinHeap/a.txt
+
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+

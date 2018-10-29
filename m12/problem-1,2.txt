@@ -1,0 +1,72 @@
+Fill in the Blank-1
+
+void swim(int k)
+{
+   while(k>1&&less(k/2,k))
+	{
+	swap(k,k/2);
+	k=k/2;
+	}
+}
+
+Fill in the Blank-2
+
+private void sink(int k) {
+   while (2*k <= N) {
+      int j = 2*k;
+      if (j < N && less(j, j+1)) j++;
+      if (!less(k, j)) break;
+      exch(k, j);
+      k = j;
+   }
+}
+
+
+Fill in the blanks-3
+
+Suppose if we built a minPQ with following keys, then answer the following questions
+I A M S T E V E R O G E R S
+
+1.Write the output of the minPQ array ?
+Ans: A E E I M O R R S S T
+2.What are the child nodes for node ‘A’?
+Ans: I ,E
+3.What is the root node after deleteMin() called 5 times?
+Ans: O
+Learning by doing-1
+
+Suppose that the sequence P R I O * R * * I * T * Y * * * Q U E * * * U * E (where a letter means insert and an asterisk means remove the maximum) is applied to an initially empty priority queue. Give the sequence of values returned by remove the maximum operations.
+Ans:
+insert P : P
+insert R : P R
+insert I : P R I
+insert O : P R I O
+remove max: R
+insert R : P I O R
+remove max: R
+remove max: P
+insert I: I O I
+remove max: O
+insert T: I I T
+remove max: T
+insert Y: I I Y
+remove max: Y
+remove max: I
+remove max: I
+insert Q: Q
+insert U: Q U
+insert E: Q U E
+remove max: U
+remove max: Q
+remove max: E
+insert U: U
+remove max: U
+insert E: E
+
+ R R P O T Y I I U Q E U (E left on PQ)
+
+Learining by doing-2
+
+Is an array that is sorted in Ascending order a min-oriented heap? Why?
+
+Ans: yes. For a min heap, we must have A[Parent(i)] <= A[i]. For an array in sorted order, the children of any node at index k, if they exist, are at 2*k and/or 2*k + 1. Since the array is in sorted order and they are at a greater index, both children are greater than or equal to the parent, satisfying the min heap property. 
