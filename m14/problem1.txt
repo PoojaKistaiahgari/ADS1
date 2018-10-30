@@ -1,0 +1,110 @@
+Fill in the blank
+Build a max heap with following elements(use the same insertion order) and answer the following questions 
+
+100,  20, 3, 101, 54, 96, 103, 71, 60
+
+1)  Number of heapify operations  required to build a max heap.
+
+ANS:4 operations
+
+2)  Leaf elements after performing 2nd heapify operation(Right to left).
+
+ANS:3,96,54,60,71
+
+3) Leaf elements after inserting all elements into max heap(First child to last child).
+
+ANS:3,96,54,60,20
+
+4) Elements at level 1 after building a heap. (Left to right)
+
+ANS:101,100
+
+5) Children of 101 after building a heap.(Left to right)
+
+ANS:71,54,20,60
+
+6)Elements at level 1 after sorting 3 elements. (Left to right)
+
+ANS:101,103
+
+	
+
+Learning by doing-1
+Suppose that your application will have a huge number of insert operations, but only a few remove the maximum operations. Which priority-queue implementation do you think would be most effective: heap, unordered array, ordered array?
+Answer: unorder array because insert is constant time.
+
+
+Learning by doing-2
+Draw all of the different heaps that can be made from the five keys A B C D E,
+ then draw all of the different heaps that can be made from the five keys A A A B B.
+  
+ MAX-HEAP:                 MAX-HEAP:        
+ FOR THIS :A B C D E       FOR THIS :A A A B B   
+1)   E                      1)     B
+   D   C                         B   A
+ B  A                          A  A
+
+2)   E                      2)   B
+   C   D                       A   B
+ A  B                        A   A
+
+3)   E
+   B   A 
+ D  C 
+
+4)   E                 
+   B   A 
+ C  D
+ 
+5)   E
+   A   B 
+ C  D 
+
+6)   E
+   A   B 
+ D  C 
+
+7)   E
+   D   C 
+ A  B
+
+8)  E
+   C   D
+ B  A
+
+MIN-HEAP:                 MIN-HEAP:        
+FOR THIS :A B C D E       FOR THIS :A A A B B 
+1)    A                    1)  A
+    B   C                    A   A
+  D  E                     B   B
+
+2)   A                     2)  A
+   B   C                    B     B
+ E  D                     A   A     
+
+3)   A                     3)   A
+   C   B                      A   B
+  D  E                      B   A
+
+4)   A                     4)  A
+   C   B                     A   B
+ E   D                     A   B
+    
+5)   A
+   B   D
+ E   C
+
+6)   A
+   B   D
+ C   E
+
+7)   A
+   B   E
+  D  C
+
+8)   A
+   B   E
+  D  C
+
+ 
+ 
