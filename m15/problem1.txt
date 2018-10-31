@@ -1,0 +1,103 @@
+Fill in the blanks-1
+
+Answer the following Questions. The following code is for put method in sequential search ST
+
+public void put(Key key, Value val) {
+        if (key == -------------) throw new IllegalArgumentException("first argument to put() is null");  //Blank1
+        if (val == null                ) {
+            delete(-----------------);   //Blank2
+            return;
+        }
+        for (Node x = first; x != null; x = ------------) { //Blank3
+            if (key.equals(-----------)) { //Blank4
+                x.val = val;
+                return;
+            }
+        }
+        first = new Node(key, val,------------------); //Blank5
+        n++;
+    }
+
+Blank1:-----------------------------null
+
+Blank2:-----------------------------key
+
+Blank3:-----------------------------x.next
+
+Blank4:-----------------------------x.key
+
+Blank5:-----------------------------first
+
+
+
+
+
+
+Fill in the blanks-2
+Answer the following Questions. The following code is for rank method in Binary search ST
+
+public int rank(Key key) {
+        if (key == null) throw new IllegalArgumentException("argument to rank() is null"); 
+
+
+        int lo = 0, hi = n-1; 
+        while (lo <= --------) {  //Blank 1
+            int mid = lo + (hi - lo) / 2; 
+            int cmp = key.compareTo(keys[----------]);  //Blank 2
+            if      (cmp < 0) hi = mid - 1; 
+            else if (cmp > 0) lo = mid + 1; 
+            else return ---------------------; //Blank 3
+        } 
+        return lo;
+    }
+
+
+Blank1:-----------------------------hi
+
+
+
+Blank2:-----------------------------mid
+
+
+
+Blank3:-----------------------------mid
+
+
+Fill in the blanks3:
+
+Suppose the following is you Binary search ST. Answer the following questions after performing operations given below.
+
+1.What will be the value return by max() method when it is performed on above ST
+
+Ans. This returns the maximum element of the list.
+
+2.What will be the value return by min() method when it is performed on above ST
+
+Ans. This method returns the minimum element of the list.
+
+3.What will be the value return by select(2) method when it is performed on above ST
+
+Ans. Returns the second key value in the list of keys.
+
+4.What will be the value return by get(R) method when it is performed on above ST
+
+Ans. Returns the value at R.
+
+5.What will be the value return by floor(N) method when it is performed on above ST
+
+Ans. Rounds it up to the greatest value of the integer. 
+
+6.What will be the value return by ceiling(N) method when it is performed on above ST
+
+Ans. Rounds it up to the smallest value of the integer.
+
+
+
+
+Learning by doing-1
+
+Which of the symbol-table implementations in this section would you use for an application that does 10^6 put() operations
+and 10^3 get() operations, randomly intermixed? Justify your answer.
+
+Ans. When we hash table it is more easy to add, remove and traverse. As, it has a time complexity of O(1). So when compared to 
+other implementations this is more effecient.
