@@ -1,0 +1,239 @@
+########## Testcase 0: Passed ##########
+Expected Output: 
+1
+
+Your Output: 
+1
+
+----------------------------------------
+########## Testcase 1: Passed ##########
+Expected Output: 
+6
+5
+7
+2
+
+Your Output: 
+6
+5
+7
+2
+
+----------------------------------------
+########## Testcase 2: Passed ##########
+Expected Output: 
+null
+7
+
+Your Output: 
+null
+7
+
+----------------------------------------
+Result: 3/3 testcases passed.
+Starting audit...
+[ERROR] E:\Github\ADS1_2018\m16\16.1 BST\Solution.java:3: Missing a Javadoc comment. [JavadocType]
+[ERROR] E:\Github\ADS1_2018\m16\16.1 BST\Solution.java:4:1: '{' at column 1 should be on the previous line. [LeftCurly]
+[ERROR] E:\Github\ADS1_2018\m16\16.1 BST\Solution.java:5:1: File contains tab characters (this is the first instance). [FileTabCharacter]
+[ERROR] E:\Github\ADS1_2018\m16\16.1 BST\Solution.java:5:9: Missing a Javadoc comment. [JavadocVariable]
+[ERROR] E:\Github\ADS1_2018\m16\16.1 BST\Solution.java:5:16: Variable 'bookn' must be private and have accessor methods. [VisibilityModifier]
+[ERROR] E:\Github\ADS1_2018\m16\16.1 BST\Solution.java:6:9: Missing a Javadoc comment. [JavadocVariable]
+[ERROR] E:\Github\ADS1_2018\m16\16.1 BST\Solution.java:6:16: Variable 'authorn' must be private and have accessor methods. [VisibilityModifier]
+[ERROR] E:\Github\ADS1_2018\m16\16.1 BST\Solution.java:7:9: Missing a Javadoc comment. [JavadocVariable]
+[ERROR] E:\Github\ADS1_2018\m16\16.1 BST\Solution.java:7:15: Variable 'p' must be private and have accessor methods. [VisibilityModifier]
+[ERROR] E:\Github\ADS1_2018\m16\16.1 BST\Solution.java:8:9: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] E:\Github\ADS1_2018\m16\16.1 BST\Solution.java:8:14: Parameter bookn should be final. [FinalParameters]
+[ERROR] E:\Github\ADS1_2018\m16\16.1 BST\Solution.java:8:21: 'bookn' hides a field. [HiddenField]
+[ERROR] E:\Github\ADS1_2018\m16\16.1 BST\Solution.java:8:27: ',' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] E:\Github\ADS1_2018\m16\16.1 BST\Solution.java:8:27: Parameter authorn should be final. [FinalParameters]
+[ERROR] E:\Github\ADS1_2018\m16\16.1 BST\Solution.java:8:34: 'authorn' hides a field. [HiddenField]
+[ERROR] E:\Github\ADS1_2018\m16\16.1 BST\Solution.java:8:42: ',' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] E:\Github\ADS1_2018\m16\16.1 BST\Solution.java:8:42: Parameter p should be final. [FinalParameters]
+[ERROR] E:\Github\ADS1_2018\m16\16.1 BST\Solution.java:8:48: 'p' hides a field. [HiddenField]
+[ERROR] E:\Github\ADS1_2018\m16\16.1 BST\Solution.java:9:9: '{' at column 2 should be on the previous line. [LeftCurly]
+[ERROR] E:\Github\ADS1_2018\m16\16.1 BST\Solution.java:10:27: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] E:\Github\ADS1_2018\m16\16.1 BST\Solution.java:10:28: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] E:\Github\ADS1_2018\m16\16.1 BST\Solution.java:11:29: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] E:\Github\ADS1_2018\m16\16.1 BST\Solution.java:11:30: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] E:\Github\ADS1_2018\m16\16.1 BST\Solution.java:12:23: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] E:\Github\ADS1_2018\m16\16.1 BST\Solution.java:12:24: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] E:\Github\ADS1_2018\m16\16.1 BST\Solution.java:16: Line is longer than 80 characters (found 92). [LineLength]
+[ERROR] E:\Github\ADS1_2018\m16\16.1 BST\Solution.java:20: Missing a Javadoc comment. [JavadocType]
+[ERROR] E:\Github\ADS1_2018\m16\16.1 BST\Solution.java:21:1: '{' at column 1 should be on the previous line. [LeftCurly]
+[ERROR] E:\Github\ADS1_2018\m16\16.1 BST\Solution.java:22:9: Missing a Javadoc comment. [JavadocVariable]
+[ERROR] E:\Github\ADS1_2018\m16\16.1 BST\Solution.java:22:21: Variable 'key' must be private and have accessor methods. [VisibilityModifier]
+[ERROR] E:\Github\ADS1_2018\m16\16.1 BST\Solution.java:23:9: Missing a Javadoc comment. [JavadocVariable]
+[ERROR] E:\Github\ADS1_2018\m16\16.1 BST\Solution.java:23:20: Variable 'val' must be private and have accessor methods. [VisibilityModifier]
+[ERROR] E:\Github\ADS1_2018\m16\16.1 BST\Solution.java:24:9: Missing a Javadoc comment. [JavadocVariable]
+[ERROR] E:\Github\ADS1_2018\m16\16.1 BST\Solution.java:24:21: Variable 'left' must be private and have accessor methods. [VisibilityModifier]
+[ERROR] E:\Github\ADS1_2018\m16\16.1 BST\Solution.java:24:26: ',' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] E:\Github\ADS1_2018\m16\16.1 BST\Solution.java:24:26: Variable 'right' must be private and have accessor methods. [VisibilityModifier]
+[ERROR] E:\Github\ADS1_2018\m16\16.1 BST\Solution.java:24:32: ';' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] E:\Github\ADS1_2018\m16\16.1 BST\Solution.java:25:9: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] E:\Github\ADS1_2018\m16\16.1 BST\Solution.java:25:14: Parameter key should be final. [FinalParameters]
+[ERROR] E:\Github\ADS1_2018\m16\16.1 BST\Solution.java:25:19: 'key' hides a field. [HiddenField]
+[ERROR] E:\Github\ADS1_2018\m16\16.1 BST\Solution.java:25:23: ',' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] E:\Github\ADS1_2018\m16\16.1 BST\Solution.java:25:23: Parameter val should be final. [FinalParameters]
+[ERROR] E:\Github\ADS1_2018\m16\16.1 BST\Solution.java:25:27: 'val' hides a field. [HiddenField]
+[ERROR] E:\Github\ADS1_2018\m16\16.1 BST\Solution.java:26:9: '{' at column 2 should be on the previous line. [LeftCurly]
+[ERROR] E:\Github\ADS1_2018\m16\16.1 BST\Solution.java:27:25: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] E:\Github\ADS1_2018\m16\16.1 BST\Solution.java:27:26: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] E:\Github\ADS1_2018\m16\16.1 BST\Solution.java:28:25: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] E:\Github\ADS1_2018\m16\16.1 BST\Solution.java:28:26: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] E:\Github\ADS1_2018\m16\16.1 BST\Solution.java:31: Missing a Javadoc comment. [JavadocType]
+[ERROR] E:\Github\ADS1_2018\m16\16.1 BST\Solution.java:32:1: '{' at column 1 should be on the previous line. [LeftCurly]
+[ERROR] E:\Github\ADS1_2018\m16\16.1 BST\Solution.java:33:9: Missing a Javadoc comment. [JavadocVariable]
+[ERROR] E:\Github\ADS1_2018\m16\16.1 BST\Solution.java:33:14: Variable 'root' must be private and have accessor methods. [VisibilityModifier]
+[ERROR] E:\Github\ADS1_2018\m16\16.1 BST\Solution.java:35:1: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] E:\Github\ADS1_2018\m16\16.1 BST\Solution.java:35:9: Parameter key should be final. [FinalParameters]
+[ERROR] E:\Github\ADS1_2018\m16\16.1 BST\Solution.java:36:1: '{' at column 1 should be on the previous line. [LeftCurly]
+[ERROR] E:\Github\ADS1_2018\m16\16.1 BST\Solution.java:37:15: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] E:\Github\ADS1_2018\m16\16.1 BST\Solution.java:37:16: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] E:\Github\ADS1_2018\m16\16.1 BST\Solution.java:38:14: 'while' is not followed by whitespace. [WhitespaceAround]
+[ERROR] E:\Github\ADS1_2018\m16\16.1 BST\Solution.java:38:16: '!=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] E:\Github\ADS1_2018\m16\16.1 BST\Solution.java:38:18: '!=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] E:\Github\ADS1_2018\m16\16.1 BST\Solution.java:39:9: '{' at column 2 should be on the previous line. [LeftCurly]
+[ERROR] E:\Github\ADS1_2018\m16\16.1 BST\Solution.java:41:19: 'if' is not followed by whitespace. [WhitespaceAround]
+[ERROR] E:\Github\ADS1_2018\m16\16.1 BST\Solution.java:41:52: '<' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] E:\Github\ADS1_2018\m16\16.1 BST\Solution.java:41:53: '<' is not followed by whitespace. [WhitespaceAround]
+[ERROR] E:\Github\ADS1_2018\m16\16.1 BST\Solution.java:42:17: '{' at column 3 should be on the previous line. [LeftCurly]
+[ERROR] E:\Github\ADS1_2018\m16\16.1 BST\Solution.java:43:26: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] E:\Github\ADS1_2018\m16\16.1 BST\Solution.java:43:27: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] E:\Github\ADS1_2018\m16\16.1 BST\Solution.java:44:17: '}' at column 3 should be on the same line as the next part of a multi-block statement (one that directly contains multiple blocks: if/else-if/else, do/while or try/catch/finally). [RightCurly]
+[ERROR] E:\Github\ADS1_2018\m16\16.1 BST\Solution.java:45:24: 'if' is not followed by whitespace. [WhitespaceAround]
+[ERROR] E:\Github\ADS1_2018\m16\16.1 BST\Solution.java:45:57: '>' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] E:\Github\ADS1_2018\m16\16.1 BST\Solution.java:45:58: '>' is not followed by whitespace. [WhitespaceAround]
+[ERROR] E:\Github\ADS1_2018\m16\16.1 BST\Solution.java:46:17: '{' at column 3 should be on the previous line. [LeftCurly]
+[ERROR] E:\Github\ADS1_2018\m16\16.1 BST\Solution.java:47:26: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] E:\Github\ADS1_2018\m16\16.1 BST\Solution.java:47:27: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] E:\Github\ADS1_2018\m16\16.1 BST\Solution.java:48:17: '}' at column 3 should be on the same line as the next part of a multi-block statement (one that directly contains multiple blocks: if/else-if/else, do/while or try/catch/finally). [RightCurly]
+[ERROR] E:\Github\ADS1_2018\m16\16.1 BST\Solution.java:49: 'else' construct must use '{}'s. [NeedBraces]
+[ERROR] E:\Github\ADS1_2018\m16\16.1 BST\Solution.java:54:1: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] E:\Github\ADS1_2018\m16\16.1 BST\Solution.java:54:10: Parameter key should be final. [FinalParameters]
+[ERROR] E:\Github\ADS1_2018\m16\16.1 BST\Solution.java:54:19: ',' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] E:\Github\ADS1_2018\m16\16.1 BST\Solution.java:54:19: Parameter val should be final. [FinalParameters]
+[ERROR] E:\Github\ADS1_2018\m16\16.1 BST\Solution.java:55:1: '{' at column 1 should be on the previous line. [LeftCurly]
+[ERROR] E:\Github\ADS1_2018\m16\16.1 BST\Solution.java:56:13: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] E:\Github\ADS1_2018\m16\16.1 BST\Solution.java:56:14: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] E:\Github\ADS1_2018\m16\16.1 BST\Solution.java:56:23: ',' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] E:\Github\ADS1_2018\m16\16.1 BST\Solution.java:56:27: ',' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] E:\Github\ADS1_2018\m16\16.1 BST\Solution.java:58:1: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] E:\Github\ADS1_2018\m16\16.1 BST\Solution.java:58:17: Parameter x should be final. [FinalParameters]
+[ERROR] E:\Github\ADS1_2018\m16\16.1 BST\Solution.java:58:24: ',' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] E:\Github\ADS1_2018\m16\16.1 BST\Solution.java:58:24: Parameter key should be final. [FinalParameters]
+[ERROR] E:\Github\ADS1_2018\m16\16.1 BST\Solution.java:58:33: ',' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] E:\Github\ADS1_2018\m16\16.1 BST\Solution.java:58:33: Parameter val should be final. [FinalParameters]
+[ERROR] E:\Github\ADS1_2018\m16\16.1 BST\Solution.java:59:1: '{' at column 1 should be on the previous line. [LeftCurly]
+[ERROR] E:\Github\ADS1_2018\m16\16.1 BST\Solution.java:60: 'if' construct must use '{}'s. [NeedBraces]
+[ERROR] E:\Github\ADS1_2018\m16\16.1 BST\Solution.java:60:11: 'if' is not followed by whitespace. [WhitespaceAround]
+[ERROR] E:\Github\ADS1_2018\m16\16.1 BST\Solution.java:60:13: '==' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] E:\Github\ADS1_2018\m16\16.1 BST\Solution.java:60:15: '==' is not followed by whitespace. [WhitespaceAround]
+[ERROR] E:\Github\ADS1_2018\m16\16.1 BST\Solution.java:61:29: ',' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] E:\Github\ADS1_2018\m16\16.1 BST\Solution.java:63:19: 'if' is not followed by whitespace. [WhitespaceAround]
+[ERROR] E:\Github\ADS1_2018\m16\16.1 BST\Solution.java:63:52: '<' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] E:\Github\ADS1_2018\m16\16.1 BST\Solution.java:63:53: '<' is not followed by whitespace. [WhitespaceAround]
+[ERROR] E:\Github\ADS1_2018\m16\16.1 BST\Solution.java:64:17: '{' at column 3 should be on the previous line. [LeftCurly]
+[ERROR] E:\Github\ADS1_2018\m16\16.1 BST\Solution.java:65:31: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] E:\Github\ADS1_2018\m16\16.1 BST\Solution.java:65:32: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] E:\Github\ADS1_2018\m16\16.1 BST\Solution.java:65:43: ',' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] E:\Github\ADS1_2018\m16\16.1 BST\Solution.java:65:47: ',' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] E:\Github\ADS1_2018\m16\16.1 BST\Solution.java:66:17: '}' at column 3 should be on the same line as the next part of a multi-block statement (one that directly contains multiple blocks: if/else-if/else, do/while or try/catch/finally). [RightCurly]
+[ERROR] E:\Github\ADS1_2018\m16\16.1 BST\Solution.java:67:24: 'if' is not followed by whitespace. [WhitespaceAround]
+[ERROR] E:\Github\ADS1_2018\m16\16.1 BST\Solution.java:67:57: '>' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] E:\Github\ADS1_2018\m16\16.1 BST\Solution.java:67:58: '>' is not followed by whitespace. [WhitespaceAround]
+[ERROR] E:\Github\ADS1_2018\m16\16.1 BST\Solution.java:68:17: '{' at column 3 should be on the previous line. [LeftCurly]
+[ERROR] E:\Github\ADS1_2018\m16\16.1 BST\Solution.java:69:32: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] E:\Github\ADS1_2018\m16\16.1 BST\Solution.java:69:33: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] E:\Github\ADS1_2018\m16\16.1 BST\Solution.java:69:45: ',' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] E:\Github\ADS1_2018\m16\16.1 BST\Solution.java:69:49: ',' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] E:\Github\ADS1_2018\m16\16.1 BST\Solution.java:70:17: '}' at column 3 should be on the same line as the next part of a multi-block statement (one that directly contains multiple blocks: if/else-if/else, do/while or try/catch/finally). [RightCurly]
+[ERROR] E:\Github\ADS1_2018\m16\16.1 BST\Solution.java:71:24: 'if' is not followed by whitespace. [WhitespaceAround]
+[ERROR] E:\Github\ADS1_2018\m16\16.1 BST\Solution.java:71:57: '==' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] E:\Github\ADS1_2018\m16\16.1 BST\Solution.java:71:59: '==' is not followed by whitespace. [WhitespaceAround]
+[ERROR] E:\Github\ADS1_2018\m16\16.1 BST\Solution.java:72:17: '{' at column 3 should be on the previous line. [LeftCurly]
+[ERROR] E:\Github\ADS1_2018\m16\16.1 BST\Solution.java:73:30: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] E:\Github\ADS1_2018\m16\16.1 BST\Solution.java:73:31: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] E:\Github\ADS1_2018\m16\16.1 BST\Solution.java:77: Line has trailing spaces. [RegexpSingleline]
+[ERROR] E:\Github\ADS1_2018\m16\16.1 BST\Solution.java:78:1: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] E:\Github\ADS1_2018\m16\16.1 BST\Solution.java:78:18: Parameter temp should be final. [FinalParameters]
+[ERROR] E:\Github\ADS1_2018\m16\16.1 BST\Solution.java:79:1: '{' at column 1 should be on the previous line. [LeftCurly]
+[ERROR] E:\Github\ADS1_2018\m16\16.1 BST\Solution.java:80:11: 'if' is not followed by whitespace. [WhitespaceAround]
+[ERROR] E:\Github\ADS1_2018\m16\16.1 BST\Solution.java:80:16: '!=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] E:\Github\ADS1_2018\m16\16.1 BST\Solution.java:80:18: '!=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] E:\Github\ADS1_2018\m16\16.1 BST\Solution.java:81:9: '{' at column 2 should be on the previous line. [LeftCurly]
+[ERROR] E:\Github\ADS1_2018\m16\16.1 BST\Solution.java:83:44: '+' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] E:\Github\ADS1_2018\m16\16.1 BST\Solution.java:83:45: '+' is not followed by whitespace. [WhitespaceAround]
+[ERROR] E:\Github\ADS1_2018\m16\16.1 BST\Solution.java:83:47: '+' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] E:\Github\ADS1_2018\m16\16.1 BST\Solution.java:83:48: '+' is not followed by whitespace. [WhitespaceAround]
+[ERROR] E:\Github\ADS1_2018\m16\16.1 BST\Solution.java:96: Line has trailing spaces. [RegexpSingleline]
+[ERROR] E:\Github\ADS1_2018\m16\16.1 BST\Solution.java:101: Missing a Javadoc comment. [JavadocType]
+[ERROR] E:\Github\ADS1_2018\m16\16.1 BST\Solution.java:101:1: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]
+[ERROR] E:\Github\ADS1_2018\m16\16.1 BST\Solution.java:102:9: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] E:\Github\ADS1_2018\m16\16.1 BST\Solution.java:102:33: Parameter args should be final. [FinalParameters]
+[ERROR] E:\Github\ADS1_2018\m16\16.1 BST\Solution.java:102:44: Array brackets at illegal position. [ArrayTypeStyle]
+[ERROR] E:\Github\ADS1_2018\m16\16.1 BST\Solution.java:103:9: '{' at column 2 should be on the previous line. [LeftCurly]
+[ERROR] E:\Github\ADS1_2018\m16\16.1 BST\Solution.java:104:27: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] E:\Github\ADS1_2018\m16\16.1 BST\Solution.java:104:28: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] E:\Github\ADS1_2018\m16\16.1 BST\Solution.java:105:21: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] E:\Github\ADS1_2018\m16\16.1 BST\Solution.java:105:22: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] E:\Github\ADS1_2018\m16\16.1 BST\Solution.java:106:22: 'while' is not followed by whitespace. [WhitespaceAround]
+[ERROR] E:\Github\ADS1_2018\m16\16.1 BST\Solution.java:107:17: '{' at column 3 should be on the previous line. [LeftCurly]
+[ERROR] E:\Github\ADS1_2018\m16\16.1 BST\Solution.java:108:33: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] E:\Github\ADS1_2018\m16\16.1 BST\Solution.java:108:34: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] E:\Github\ADS1_2018\m16\16.1 BST\Solution.java:109:30: Array brackets at illegal position. [ArrayTypeStyle]
+[ERROR] E:\Github\ADS1_2018\m16\16.1 BST\Solution.java:109:32: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] E:\Github\ADS1_2018\m16\16.1 BST\Solution.java:109:33: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] E:\Github\ADS1_2018\m16\16.1 BST\Solution.java:110:28: Name 'O' must match pattern '^[a-z][a-zA-Z0-9]*$'. [LocalVariableName]
+[ERROR] E:\Github\ADS1_2018\m16\16.1 BST\Solution.java:110:29: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] E:\Github\ADS1_2018\m16\16.1 BST\Solution.java:110:30: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] E:\Github\ADS1_2018\m16\16.1 BST\Solution.java:111:30: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] E:\Github\ADS1_2018\m16\16.1 BST\Solution.java:111:31: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] E:\Github\ADS1_2018\m16\16.1 BST\Solution.java:111:46: ',' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] E:\Github\ADS1_2018\m16\16.1 BST\Solution.java:111:52: ',' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] E:\Github\ADS1_2018\m16\16.1 BST\Solution.java:111:72: '3' is a magic number. [MagicNumber]
+[ERROR] E:\Github\ADS1_2018\m16\16.1 BST\Solution.java:112: switch without "default" clause. [MissingSwitchDefault]
+[ERROR] E:\Github\ADS1_2018\m16\16.1 BST\Solution.java:112:27: 'switch' is not followed by whitespace. [WhitespaceAround]
+[ERROR] E:\Github\ADS1_2018\m16\16.1 BST\Solution.java:113:21: '{' at column 7 should be on the previous line. [LeftCurly]
+[ERROR] E:\Github\ADS1_2018\m16\16.1 BST\Solution.java:114: Line has trailing spaces. [RegexpSingleline]
+[ERROR] E:\Github\ADS1_2018\m16\16.1 BST\Solution.java:116:36: ',' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] E:\Github\ADS1_2018\m16\16.1 BST\Solution.java:116:56: '4' is a magic number. [MagicNumber]
+[ERROR] E:\Github\ADS1_2018\m16\16.1 BST\Solution.java:117: Line has trailing spaces. [RegexpSingleline]
+[ERROR] E:\Github\ADS1_2018\m16\16.1 BST\Solution.java:120: 'if' construct must use '{}'s. [NeedBraces]
+[ERROR] E:\Github\ADS1_2018\m16\16.1 BST\Solution.java:120:27: 'if' is not followed by whitespace. [WhitespaceAround]
+[ERROR] E:\Github\ADS1_2018\m16\16.1 BST\Solution.java:120:39: '!=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] E:\Github\ADS1_2018\m16\16.1 BST\Solution.java:120:41: '!=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] E:\Github\ADS1_2018\m16\16.1 BST\Solution.java:122: 'else' construct must use '{}'s. [NeedBraces]
+[ERROR] E:\Github\ADS1_2018\m16\16.1 BST\Solution.java:125: Line has trailing spaces. [RegexpSingleline]
+Audit done.
+Checkstyle ends with 172 errors.
+
+
+[master 67c43ca] "check_style_score -> 3 of 3 passed. style score: 0/1 "
+ 24 files changed, 166 insertions(+)
+ create mode 100644 m16/16.1 BST/16.1. BinarySearchTree.docx
+ create mode 100644 m16/16.1 BST/BS.class
+ create mode 100644 m16/16.1 BST/Book.class
+ create mode 100644 m16/16.1 BST/Node.class
+ create mode 100644 m16/16.1 BST/Solution.class
+ create mode 100644 m16/16.1 BST/Solution.java
+ create mode 100644 m16/16.1 BST/a.txt
+ create mode 100644 m16/16.1 BST/md5/input000.txt
+ create mode 100644 m16/16.1 BST/md5/input001.txt
+ create mode 100644 m16/16.1 BST/md5/input002.txt
+ create mode 100644 m16/16.1 BST/md5/output000.txt
+ create mode 100644 m16/16.1 BST/md5/output001.txt
+ create mode 100644 m16/16.1 BST/md5/output002.txt
+ create mode 100644 m16/16.1 BST/md5/problem_id.txt
+ create mode 100644 m16/16.1 BST/md5/score.txt
+ create mode 100644 m16/16.1 BST/result/score.json
+ create mode 100644 m16/16.1 BST/testcases/input000.txt
+ create mode 100644 m16/16.1 BST/testcases/input001.txt
+ create mode 100644 m16/16.1 BST/testcases/input002.txt
+ create mode 100644 m16/16.1 BST/testcases/output000.txt
+ create mode 100644 m16/16.1 BST/testcases/output001.txt
+ create mode 100644 m16/16.1 BST/testcases/output002.txt
+ create mode 100644 m16/16.1 BST/testcases/problem_id.txt
+ create mode 100644 m16/16.1 BST/~$.1. BinarySearchTree.docx
+
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
