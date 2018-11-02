@@ -1,0 +1,119 @@
+########## Testcase 0: Passed ##########
+Expected Output: 
+1729
+
+Your Output: 
+1729
+
+----------------------------------------
+########## Testcase 1: Failed ##########
+Expected Output: 
+4673088
+
+Your Output: 
+
+
+----------------------------------------
+########## Testcase 2: Failed ##########
+Expected Output: 
+86488136
+
+Your Output: 
+
+
+----------------------------------------
+########## Testcase 3: Failed ##########
+Expected Output: 
+87539319
+
+Your Output: 
+
+
+----------------------------------------
+########## Testcase 4: Failed ##########
+Expected Output: 
+143604279
+
+Your Output: 
+
+
+----------------------------------------
+Result: 1/5 testcases passed.
+Starting audit...
+[ERROR] E:\Github\ADS1_2018\m17\TaxiCabNumbers\Solution.java:0: File does not end with a newline. [NewlineAtEndOfFile]
+[ERROR] E:\Github\ADS1_2018\m17\TaxiCabNumbers\Solution.java:2: Line has trailing spaces. [RegexpSingleline]
+[ERROR] E:\Github\ADS1_2018\m17\TaxiCabNumbers\Solution.java:2: Missing a Javadoc comment. [JavadocType]
+[ERROR] E:\Github\ADS1_2018\m17\TaxiCabNumbers\Solution.java:2:1: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]
+[ERROR] E:\Github\ADS1_2018\m17\TaxiCabNumbers\Solution.java:3: Line has trailing spaces. [RegexpSingleline]
+[ERROR] E:\Github\ADS1_2018\m17\TaxiCabNumbers\Solution.java:4: Line has trailing spaces. [RegexpSingleline]
+[ERROR] E:\Github\ADS1_2018\m17\TaxiCabNumbers\Solution.java:4:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] E:\Github\ADS1_2018\m17\TaxiCabNumbers\Solution.java:4:24: Name 'Taxicab' must match pattern '^[a-z][a-zA-Z0-9]*$'. [MethodName]
+[ERROR] E:\Github\ADS1_2018\m17\TaxiCabNumbers\Solution.java:4:32: Parameter n should be final. [FinalParameters]
+[ERROR] E:\Github\ADS1_2018\m17\TaxiCabNumbers\Solution.java:4:38: ',' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] E:\Github\ADS1_2018\m17\TaxiCabNumbers\Solution.java:4:38: Parameter m should be final. [FinalParameters]
+[ERROR] E:\Github\ADS1_2018\m17\TaxiCabNumbers\Solution.java:5: Line has trailing spaces. [RegexpSingleline]
+[ERROR] E:\Github\ADS1_2018\m17\TaxiCabNumbers\Solution.java:5:5: '{' at column 5 should be on the previous line. [LeftCurly]
+[ERROR] E:\Github\ADS1_2018\m17\TaxiCabNumbers\Solution.java:6: Line has trailing spaces. [RegexpSingleline]
+[ERROR] E:\Github\ADS1_2018\m17\TaxiCabNumbers\Solution.java:7: Line has trailing spaces. [RegexpSingleline]
+[ERROR] E:\Github\ADS1_2018\m17\TaxiCabNumbers\Solution.java:8: Line has trailing spaces. [RegexpSingleline]
+[ERROR] E:\Github\ADS1_2018\m17\TaxiCabNumbers\Solution.java:8:21: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] E:\Github\ADS1_2018\m17\TaxiCabNumbers\Solution.java:9: Line has trailing spaces. [RegexpSingleline]
+[ERROR] E:\Github\ADS1_2018\m17\TaxiCabNumbers\Solution.java:9:17: '<' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] E:\Github\ADS1_2018\m17\TaxiCabNumbers\Solution.java:10: Line has trailing spaces. [RegexpSingleline]
+[ERROR] E:\Github\ADS1_2018\m17\TaxiCabNumbers\Solution.java:10:9: '{' at column 9 should be on the previous line. [LeftCurly]
+[ERROR] E:\Github\ADS1_2018\m17\TaxiCabNumbers\Solution.java:11: Line has trailing spaces. [RegexpSingleline]
+[ERROR] E:\Github\ADS1_2018\m17\TaxiCabNumbers\Solution.java:11:18: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] E:\Github\ADS1_2018\m17\TaxiCabNumbers\Solution.java:12: Line has trailing spaces. [RegexpSingleline]
+[ERROR] E:\Github\ADS1_2018\m17\TaxiCabNumbers\Solution.java:12:12: File contains tab characters (this is the first instance). [FileTabCharacter]
+[ERROR] E:\Github\ADS1_2018\m17\TaxiCabNumbers\Solution.java:13: Line has trailing spaces. [RegexpSingleline]
+[ERROR] E:\Github\ADS1_2018\m17\TaxiCabNumbers\Solution.java:14: Line has trailing spaces. [RegexpSingleline]
+[ERROR] E:\Github\ADS1_2018\m17\TaxiCabNumbers\Solution.java:15: 'for' construct must use '{}'s. [NeedBraces]
+[ERROR] E:\Github\ADS1_2018\m17\TaxiCabNumbers\Solution.java:15: Line has trailing spaces. [RegexpSingleline]
+[ERROR] E:\Github\ADS1_2018\m17\TaxiCabNumbers\Solution.java:15:48: '/' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] E:\Github\ADS1_2018\m17\TaxiCabNumbers\Solution.java:15:49: '/' is not followed by whitespace. [WhitespaceAround]
+[ERROR] E:\Github\ADS1_2018\m17\TaxiCabNumbers\Solution.java:15:49: '3' is a magic number. [MagicNumber]
+[ERROR] E:\Github\ADS1_2018\m17\TaxiCabNumbers\Solution.java:16: 'for' construct must use '{}'s. [NeedBraces]
+[ERROR] E:\Github\ADS1_2018\m17\TaxiCabNumbers\Solution.java:16: Line has trailing spaces. [RegexpSingleline]
+[ERROR] E:\Github\ADS1_2018\m17\TaxiCabNumbers\Solution.java:16:55: '/' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] E:\Github\ADS1_2018\m17\TaxiCabNumbers\Solution.java:16:56: '/' is not followed by whitespace. [WhitespaceAround]
+[ERROR] E:\Github\ADS1_2018\m17\TaxiCabNumbers\Solution.java:16:56: '3' is a magic number. [MagicNumber]
+[ERROR] E:\Github\ADS1_2018\m17\TaxiCabNumbers\Solution.java:17: Line has trailing spaces. [RegexpSingleline]
+[ERROR] E:\Github\ADS1_2018\m17\TaxiCabNumbers\Solution.java:18: 'if' construct must use '{}'s. [NeedBraces]
+[ERROR] E:\Github\ADS1_2018\m17\TaxiCabNumbers\Solution.java:18: Line has trailing spaces. [RegexpSingleline]
+[ERROR] E:\Github\ADS1_2018\m17\TaxiCabNumbers\Solution.java:19: Line has trailing spaces. [RegexpSingleline]
+[ERROR] E:\Github\ADS1_2018\m17\TaxiCabNumbers\Solution.java:20: Line has trailing spaces. [RegexpSingleline]
+[ERROR] E:\Github\ADS1_2018\m17\TaxiCabNumbers\Solution.java:21: Line has trailing spaces. [RegexpSingleline]
+[ERROR] E:\Github\ADS1_2018\m17\TaxiCabNumbers\Solution.java:22: Line has trailing spaces. [RegexpSingleline]
+[ERROR] E:\Github\ADS1_2018\m17\TaxiCabNumbers\Solution.java:22:18: '==' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] E:\Github\ADS1_2018\m17\TaxiCabNumbers\Solution.java:23: Line has trailing spaces. [RegexpSingleline]
+[ERROR] E:\Github\ADS1_2018\m17\TaxiCabNumbers\Solution.java:23:12: '{' at column 12 should be on the previous line. [LeftCurly]
+[ERROR] E:\Github\ADS1_2018\m17\TaxiCabNumbers\Solution.java:24: Line has trailing spaces. [RegexpSingleline]
+[ERROR] E:\Github\ADS1_2018\m17\TaxiCabNumbers\Solution.java:25: Line has trailing spaces. [RegexpSingleline]
+[ERROR] E:\Github\ADS1_2018\m17\TaxiCabNumbers\Solution.java:26: Line has trailing spaces. [RegexpSingleline]
+[ERROR] E:\Github\ADS1_2018\m17\TaxiCabNumbers\Solution.java:27: Line has trailing spaces. [RegexpSingleline]
+[ERROR] E:\Github\ADS1_2018\m17\TaxiCabNumbers\Solution.java:28: Line has trailing spaces. [RegexpSingleline]
+[ERROR] E:\Github\ADS1_2018\m17\TaxiCabNumbers\Solution.java:29: Line has trailing spaces. [RegexpSingleline]
+[ERROR] E:\Github\ADS1_2018\m17\TaxiCabNumbers\Solution.java:30:29: '-' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] E:\Github\ADS1_2018\m17\TaxiCabNumbers\Solution.java:30:30: '-' is not followed by whitespace. [WhitespaceAround]
+[ERROR] E:\Github\ADS1_2018\m17\TaxiCabNumbers\Solution.java:31: Line has trailing spaces. [RegexpSingleline]
+[ERROR] E:\Github\ADS1_2018\m17\TaxiCabNumbers\Solution.java:32: Line has trailing spaces. [RegexpSingleline]
+[ERROR] E:\Github\ADS1_2018\m17\TaxiCabNumbers\Solution.java:33: Line has trailing spaces. [RegexpSingleline]
+[ERROR] E:\Github\ADS1_2018\m17\TaxiCabNumbers\Solution.java:33:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] E:\Github\ADS1_2018\m17\TaxiCabNumbers\Solution.java:33:29: Parameter args should be final. [FinalParameters]
+[ERROR] E:\Github\ADS1_2018\m17\TaxiCabNumbers\Solution.java:34: Line has trailing spaces. [RegexpSingleline]
+[ERROR] E:\Github\ADS1_2018\m17\TaxiCabNumbers\Solution.java:34:5: '{' at column 5 should be on the previous line. [LeftCurly]
+[ERROR] E:\Github\ADS1_2018\m17\TaxiCabNumbers\Solution.java:35:18: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] E:\Github\ADS1_2018\m17\TaxiCabNumbers\Solution.java:35:19: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] E:\Github\ADS1_2018\m17\TaxiCabNumbers\Solution.java:36:18: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] E:\Github\ADS1_2018\m17\TaxiCabNumbers\Solution.java:36:19: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] E:\Github\ADS1_2018\m17\TaxiCabNumbers\Solution.java:37:15: 'String' is followed by whitespace. [NoWhitespaceAfter]
+[ERROR] E:\Github\ADS1_2018\m17\TaxiCabNumbers\Solution.java:37:20: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] E:\Github\ADS1_2018\m17\TaxiCabNumbers\Solution.java:37:21: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] E:\Github\ADS1_2018\m17\TaxiCabNumbers\Solution.java:38: Line has trailing spaces. [RegexpSingleline]
+[ERROR] E:\Github\ADS1_2018\m17\TaxiCabNumbers\Solution.java:39: Line has trailing spaces. [RegexpSingleline]
+[ERROR] E:\Github\ADS1_2018\m17\TaxiCabNumbers\Solution.java:39:41: ',' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] E:\Github\ADS1_2018\m17\TaxiCabNumbers\Solution.java:40: Line has trailing spaces. [RegexpSingleline]
+[ERROR] E:\Github\ADS1_2018\m17\TaxiCabNumbers\Solution.java:41: Line has trailing spaces. [RegexpSingleline]
+[ERROR] E:\Github\ADS1_2018\m17\TaxiCabNumbers\Solution.java:42: Line has trailing spaces. [RegexpSingleline]
+Audit done.
+Checkstyle ends with 75 errors.
