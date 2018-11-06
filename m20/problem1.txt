@@ -1,0 +1,133 @@
+Fill in the blanks-1
+
+Fill the following blanks in the delete method of BST
+
+private Node delete(Node x, Key key) {
+        if (x == null) 	return ____________;  //Blank1
+        int cmp = key.compareTo(_______);  //Blank2
+        if (cmp < 0)	x.left  = delete(__________,  key); //Blank3
+        else if (cmp > 0) 	x.right = delete(__________, key); //Blank4
+        else { 
+            if (x.right == null)		return __________; //Blank5
+            if (x.left  == _____ ) 		return x.right; //Blank6
+            Node t = ________ ;    //Blank7
+            x = min(___________); //Blank8
+           ____________ = deleteMin(t.right);  //Blank9
+            x.left = t.left;
+        } 
+        x.size = size(x.left) + size(x.right) + _________; //Blank10
+        return x;
+    }
+
+Blank1:------null
+
+Blank2:------x.key
+
+Blank3:------x.left
+
+Blank4:------x.right
+
+Blank5:------x.left
+
+Blank6:------x
+
+Blank7:------x
+
+Blank8:------t.right
+
+Blank9:-------x.right
+
+Blank10:--------1
+
+
+Fill in the blanks-2
+Answer the following questions on the below given BST
+
+If we want to remove Node J from the above BST. Then what will be parent Node for Node M
+Answer: M
+
+If we want to remove Node T from the above BST. Then what will be parent Node for Node S
+Answer: E
+
+If we want to remove Node E from the above BST. Then what will the root Node of the BST
+Answer: T
+
+If we want to remove Node Q from the above BST. Then what will be parent Node for Node J
+Answer: J
+
+If we want to remove Node D from the above BST. Then what will the left child for Node E
+Answer:  M
+
+
+Learning by doing-1
+Draw the 2-3 tree that results when you insert the keys E A S Y Q U E S T I O N, in that order into an initially empty 2-3 tree.
+Answer:
+step1 E:                         E
+                                
+step2 A:                        A E 
+
+step3 S:                       A E S
+
+                                 E
+                                / \
+                               A   S
+
+step4 Y:                         E
+                                / \
+                               A   S Y
+
+step5 Q:                           E
+                                 /   \
+                                A    Q S Y
+
+step6 U:                            E S
+                                  /  |  \
+                               A     Q   U Y
+
+step6 E:                            E S
+                                   /  | \
+                                A E   Q   U Y
+
+step7 S:                              E S
+                                    /  |   \
+                                  A E  Q S  U Y
+
+step8 T:                              E S
+                                    /   |  \
+                                A E  Q S T U Y
+
+step9 I:                               E S
+                                      / |   \
+                                  A E  I Q S  T U Y
+
+step10 O:                                  E  Q  S
+                                        /  |   |  \
+                                     A E  I O  S  T U Y
+
+step11 N:                                    E   Q     S
+                                           /   |     |  \
+                                        A E  I N O   S  T U Y
+                                              
+                                                      Q
+                                                 /        \
+                                                E           S
+                                             /    \        /  \
+                                           A E   I N O     S   T U Y
+
+
+
+Learning by doing-2
+Draw a table that compare the worst, best and average cases of insertion, searching and deletion of Linear search symbol table, Binary search symbol table, Binary search tree and 2-3 Tree.
+
+                                 worst case                                 Average case
+
+                           insert | delete | search                        insert        | delete   | search
+linear search               N     |    N   |   N                             N           |   N/2    |  N/2
+Binary search               N     |    N   |   log N                         N/2         |   N/2    |  log N
+Binary search Tree          N     |    N   |    N                           1.39logN     |   N/2    |  1.39 logN
+2-3 Tree                   clogN  | clogN  |  clogN                           clogN      |  clogN   |   clogN
+
+
+
+
+
