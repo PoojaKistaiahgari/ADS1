@@ -1,0 +1,88 @@
+Fill in the blanks-1
+
+Answer the following questions on Separate Chaining Hash table for the keys and its hash values.
+Keys : S E A R C H E X A M P L E
+Hash : 2 0 0 4 4 4 0 2 0 4 3 3 0
+Note: If there are no keys write null, If there are multiple keys write keys with comma space separated
+
+For the index 0, Write the keys in ascending order.
+Answer: A,E
+
+For the index 4, Write the keys in ascending order.
+Answer: C,H,M,R
+
+For the index 1, Write the keys in ascending order.
+Answer:null
+
+For the index 2, Write the keys in ascending order.
+Answer: S,X
+
+For the index 3, Write the keys in ascending order.
+Answer: L,P
+
+Fill in the blanks-2
+
+After Inserting elements 1, 32, 22, 15, 33, 45, 66, 73, 10. How many collisions occur when you hashCode() as key % size after inserting keys into hashtable for given sizes below.
+
+Size = 7 
+Answer: 5 collision(1,4,1,1,5,3,3,3,3)	
+
+Size = 8
+Answer: 3 collisions(1,0,6,7,1,5,2,1,2)
+	
+
+Size = 12
+Answer: 1 collision(0,8,11,3,9,9,6,1,10)
+	
+Size = 1
+Answer: 8 collision(0,0,0,0,0,0,0,0,0)
+
+
+
+
+Fill in the blanks-3
+
+In a separate-chaining hash table with M lists and N keys, the number of compares (equality tests) for search and insert is proportional to N/M. (true/false)
+
+Answer: true
+
+Any good hash function should have the three properties :  (true/false)
+
+It should be deterministic, equal keys must produce the same hash value.
+It should be efficient to compute.
+It should uniformly distribute the keys.
+
+Answer: true
+
+How many empty lists do you expect to see when you insert keys 1, 2, 3, 4, 5, 6 into a hash table with Separate Chaining Hashing with hashCode as key % size , for size = 2 without any resizing?
+
+Answer: 0
+
+How many empty lists do you expect to see when you insert keys 2, 22, 32, 42, 52 into a hash table with Separate Chaining Hashing with hashCode as key % size , for size = 10 without any resizing?
+
+Answer: 9
+
+How many empty lists do you expect to see when you insert keys 15, 30, 45, 60, 75 into a hash table with Separate Chaining Hashing with hashCode as key % size , for size = 15 without any resizing?
+
+Answer: 14
+
+
+Learning by doing-1
+
+Is the following implementation of hashCode() legal?
+public int hasCode(){
+return 17;
+}
+Answer: its is an illegal analysis.
+
+
+Learning by doing-2
+
+Insert the keys E A S Y Q U T I O N in that order into an initially empty table of M = 5 lists, using separate chaining. Use the hash function 11 k % M to transform the kth letter of the alphabet into a table index.
+Answer:  11 * k % M
+
+0 - E,O,T,Y
+1 - A,U
+2 - Q
+3 - null
+4 - I,N,S

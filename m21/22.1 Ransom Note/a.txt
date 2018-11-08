@@ -1,0 +1,180 @@
+########## Testcase 0: Passed ##########
+Expected Output: 
+Yes
+
+Your Output: 
+Yes
+
+----------------------------------------
+########## Testcase 1: Passed ##########
+Expected Output: 
+No
+
+Your Output: 
+No
+
+----------------------------------------
+########## Testcase 2: Passed ##########
+Expected Output: 
+No
+
+Your Output: 
+No
+
+----------------------------------------
+########## Testcase 3: Passed ##########
+Expected Output: 
+No
+
+Your Output: 
+No
+
+----------------------------------------
+########## Testcase 4: Passed ##########
+Expected Output: 
+Yes
+
+Your Output: 
+Yes
+
+----------------------------------------
+########## Testcase 5: Failed ##########
+Expected Output: 
+Yes
+
+Your Output: 
+No
+
+----------------------------------------
+Result: 5/6 testcases passed.
+Starting audit...
+[ERROR] E:\Github\ADS1_2018\m21\22.1 Ransom Note\Solution.java:2:8: Unused import - java.util.Hashtable. [UnusedImports]
+[ERROR] E:\Github\ADS1_2018\m21\22.1 Ransom Note\Solution.java:4: Missing a Javadoc comment. [JavadocType]
+[ERROR] E:\Github\ADS1_2018\m21\22.1 Ransom Note\Solution.java:5:1: Missing a Javadoc comment. [JavadocVariable]
+[ERROR] E:\Github\ADS1_2018\m21\22.1 Ransom Note\Solution.java:5:5: Variable 'n' must be private and have accessor methods. [VisibilityModifier]
+[ERROR] E:\Github\ADS1_2018\m21\22.1 Ransom Note\Solution.java:7:1: File contains tab characters (this is the first instance). [FileTabCharacter]
+[ERROR] E:\Github\ADS1_2018\m21\22.1 Ransom Note\Solution.java:7:9: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] E:\Github\ADS1_2018\m21\22.1 Ransom Note\Solution.java:7:9: Redundant 'public' modifier. [RedundantModifier]
+[ERROR] E:\Github\ADS1_2018\m21\22.1 Ransom Note\Solution.java:7:22: Parameter n should be final. [FinalParameters]
+[ERROR] E:\Github\ADS1_2018\m21\22.1 Ransom Note\Solution.java:7:26: 'n' hides a field. [HiddenField]
+[ERROR] E:\Github\ADS1_2018\m21\22.1 Ransom Note\Solution.java:8: Line has trailing spaces. [RegexpSingleline]
+[ERROR] E:\Github\ADS1_2018\m21\22.1 Ransom Note\Solution.java:12:9: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] E:\Github\ADS1_2018\m21\22.1 Ransom Note\Solution.java:12:29: Parameter s should be final. [FinalParameters]
+[ERROR] E:\Github\ADS1_2018\m21\22.1 Ransom Note\Solution.java:13:9: '{' at column 2 should be on the previous line. [LeftCurly]
+[ERROR] E:\Github\ADS1_2018\m21\22.1 Ransom Note\Solution.java:14:26: '1000' is a magic number. [MagicNumber]
+[ERROR] E:\Github\ADS1_2018\m21\22.1 Ransom Note\Solution.java:15:24: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] E:\Github\ADS1_2018\m21\22.1 Ransom Note\Solution.java:15:25: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] E:\Github\ADS1_2018\m21\22.1 Ransom Note\Solution.java:16:20: 'for' is not followed by whitespace. [WhitespaceAround]
+[ERROR] E:\Github\ADS1_2018\m21\22.1 Ransom Note\Solution.java:16:31: ';' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] E:\Github\ADS1_2018\m21\22.1 Ransom Note\Solution.java:16:32: '<' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] E:\Github\ADS1_2018\m21\22.1 Ransom Note\Solution.java:16:33: '<' is not followed by whitespace. [WhitespaceAround]
+[ERROR] E:\Github\ADS1_2018\m21\22.1 Ransom Note\Solution.java:16:44: ';' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] E:\Github\ADS1_2018\m21\22.1 Ransom Note\Solution.java:17:17: '{' at column 3 should be on the previous line. [LeftCurly]
+[ERROR] E:\Github\ADS1_2018\m21\22.1 Ransom Note\Solution.java:18:28: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] E:\Github\ADS1_2018\m21\22.1 Ransom Note\Solution.java:18:29: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] E:\Github\ADS1_2018\m21\22.1 Ransom Note\Solution.java:18:32: '+' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] E:\Github\ADS1_2018\m21\22.1 Ransom Note\Solution.java:18:33: '+' is not followed by whitespace. [WhitespaceAround]
+[ERROR] E:\Github\ADS1_2018\m21\22.1 Ransom Note\Solution.java:18:46: '*' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] E:\Github\ADS1_2018\m21\22.1 Ransom Note\Solution.java:18:47: '*' is not followed by whitespace. [WhitespaceAround]
+[ERROR] E:\Github\ADS1_2018\m21\22.1 Ransom Note\Solution.java:20:20: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] E:\Github\ADS1_2018\m21\22.1 Ransom Note\Solution.java:20:21: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] E:\Github\ADS1_2018\m21\22.1 Ransom Note\Solution.java:20:24: '%' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] E:\Github\ADS1_2018\m21\22.1 Ransom Note\Solution.java:20:25: '%' is not followed by whitespace. [WhitespaceAround]
+[ERROR] E:\Github\ADS1_2018\m21\22.1 Ransom Note\Solution.java:25: Missing a Javadoc comment. [JavadocType]
+[ERROR] E:\Github\ADS1_2018\m21\22.1 Ransom Note\Solution.java:25:1: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]
+[ERROR] E:\Github\ADS1_2018\m21\22.1 Ransom Note\Solution.java:26:1: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] E:\Github\ADS1_2018\m21\22.1 Ransom Note\Solution.java:26:25: Parameter args should be final. [FinalParameters]
+[ERROR] E:\Github\ADS1_2018\m21\22.1 Ransom Note\Solution.java:26:36: Array brackets at illegal position. [ArrayTypeStyle]
+[ERROR] E:\Github\ADS1_2018\m21\22.1 Ransom Note\Solution.java:27:1: '{' at column 1 should be on the previous line. [LeftCurly]
+[ERROR] E:\Github\ADS1_2018\m21\22.1 Ransom Note\Solution.java:28:18: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] E:\Github\ADS1_2018\m21\22.1 Ransom Note\Solution.java:28:19: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] E:\Github\ADS1_2018\m21\22.1 Ransom Note\Solution.java:29:15: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] E:\Github\ADS1_2018\m21\22.1 Ransom Note\Solution.java:29:16: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] E:\Github\ADS1_2018\m21\22.1 Ransom Note\Solution.java:30:15: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] E:\Github\ADS1_2018\m21\22.1 Ransom Note\Solution.java:30:16: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] E:\Github\ADS1_2018\m21\22.1 Ransom Note\Solution.java:31:18: Array brackets at illegal position. [ArrayTypeStyle]
+[ERROR] E:\Github\ADS1_2018\m21\22.1 Ransom Note\Solution.java:31:20: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] E:\Github\ADS1_2018\m21\22.1 Ransom Note\Solution.java:31:21: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] E:\Github\ADS1_2018\m21\22.1 Ransom Note\Solution.java:31:36: '*' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] E:\Github\ADS1_2018\m21\22.1 Ransom Note\Solution.java:31:37: '*' is not followed by whitespace. [WhitespaceAround]
+[ERROR] E:\Github\ADS1_2018\m21\22.1 Ransom Note\Solution.java:31:37: '5' is a magic number. [MagicNumber]
+[ERROR] E:\Github\ADS1_2018\m21\22.1 Ransom Note\Solution.java:32:15: Array brackets at illegal position. [ArrayTypeStyle]
+[ERROR] E:\Github\ADS1_2018\m21\22.1 Ransom Note\Solution.java:32:17: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] E:\Github\ADS1_2018\m21\22.1 Ransom Note\Solution.java:32:18: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] E:\Github\ADS1_2018\m21\22.1 Ransom Note\Solution.java:33: Line has trailing spaces. [RegexpSingleline]
+[ERROR] E:\Github\ADS1_2018\m21\22.1 Ransom Note\Solution.java:34:16: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] E:\Github\ADS1_2018\m21\22.1 Ransom Note\Solution.java:34:17: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] E:\Github\ADS1_2018\m21\22.1 Ransom Note\Solution.java:34:29: '*' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] E:\Github\ADS1_2018\m21\22.1 Ransom Note\Solution.java:34:30: '*' is not followed by whitespace. [WhitespaceAround]
+[ERROR] E:\Github\ADS1_2018\m21\22.1 Ransom Note\Solution.java:34:30: '5' is a magic number. [MagicNumber]
+[ERROR] E:\Github\ADS1_2018\m21\22.1 Ransom Note\Solution.java:35:12: 'for' is not followed by whitespace. [WhitespaceAround]
+[ERROR] E:\Github\ADS1_2018\m21\22.1 Ransom Note\Solution.java:35:23: ';' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] E:\Github\ADS1_2018\m21\22.1 Ransom Note\Solution.java:35:24: '<' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] E:\Github\ADS1_2018\m21\22.1 Ransom Note\Solution.java:35:25: '<' is not followed by whitespace. [WhitespaceAround]
+[ERROR] E:\Github\ADS1_2018\m21\22.1 Ransom Note\Solution.java:35:28: ';' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] E:\Github\ADS1_2018\m21\22.1 Ransom Note\Solution.java:36:9: '{' at column 2 should be on the previous line. [LeftCurly]
+[ERROR] E:\Github\ADS1_2018\m21\22.1 Ransom Note\Solution.java:37:18: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] E:\Github\ADS1_2018\m21\22.1 Ransom Note\Solution.java:37:19: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] E:\Github\ADS1_2018\m21\22.1 Ransom Note\Solution.java:38:35: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] E:\Github\ADS1_2018\m21\22.1 Ransom Note\Solution.java:38:36: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] E:\Github\ADS1_2018\m21\22.1 Ransom Note\Solution.java:39:22: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] E:\Github\ADS1_2018\m21\22.1 Ransom Note\Solution.java:39:23: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] E:\Github\ADS1_2018\m21\22.1 Ransom Note\Solution.java:41:18: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] E:\Github\ADS1_2018\m21\22.1 Ransom Note\Solution.java:41:19: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] E:\Github\ADS1_2018\m21\22.1 Ransom Note\Solution.java:41:21: ';' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] E:\Github\ADS1_2018\m21\22.1 Ransom Note\Solution.java:42:12: 'for' is not followed by whitespace. [WhitespaceAround]
+[ERROR] E:\Github\ADS1_2018\m21\22.1 Ransom Note\Solution.java:42:23: ';' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] E:\Github\ADS1_2018\m21\22.1 Ransom Note\Solution.java:42:24: '<' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] E:\Github\ADS1_2018\m21\22.1 Ransom Note\Solution.java:42:25: '<' is not followed by whitespace. [WhitespaceAround]
+[ERROR] E:\Github\ADS1_2018\m21\22.1 Ransom Note\Solution.java:42:28: ';' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] E:\Github\ADS1_2018\m21\22.1 Ransom Note\Solution.java:43:9: '{' at column 2 should be on the previous line. [LeftCurly]
+[ERROR] E:\Github\ADS1_2018\m21\22.1 Ransom Note\Solution.java:43:9: '{' at column 2 should have line break after. [LeftCurly]
+[ERROR] E:\Github\ADS1_2018\m21\22.1 Ransom Note\Solution.java:43:10: '{' is not followed by whitespace. [WhitespaceAround]
+[ERROR] E:\Github\ADS1_2018\m21\22.1 Ransom Note\Solution.java:43:19: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] E:\Github\ADS1_2018\m21\22.1 Ransom Note\Solution.java:43:20: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] E:\Github\ADS1_2018\m21\22.1 Ransom Note\Solution.java:44:22: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] E:\Github\ADS1_2018\m21\22.1 Ransom Note\Solution.java:44:23: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] E:\Github\ADS1_2018\m21\22.1 Ransom Note\Solution.java:44:38: ';' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] E:\Github\ADS1_2018\m21\22.1 Ransom Note\Solution.java:44:40: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] E:\Github\ADS1_2018\m21\22.1 Ransom Note\Solution.java:44:41: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] E:\Github\ADS1_2018\m21\22.1 Ransom Note\Solution.java:45:20: 'for' is not followed by whitespace. [WhitespaceAround]
+[ERROR] E:\Github\ADS1_2018\m21\22.1 Ransom Note\Solution.java:45:31: ';' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] E:\Github\ADS1_2018\m21\22.1 Ransom Note\Solution.java:45:32: '<' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] E:\Github\ADS1_2018\m21\22.1 Ransom Note\Solution.java:45:33: '<' is not followed by whitespace. [WhitespaceAround]
+[ERROR] E:\Github\ADS1_2018\m21\22.1 Ransom Note\Solution.java:45:36: ';' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] E:\Github\ADS1_2018\m21\22.1 Ransom Note\Solution.java:46:17: '{' at column 3 should be on the previous line. [LeftCurly]
+[ERROR] E:\Github\ADS1_2018\m21\22.1 Ransom Note\Solution.java:47:27: 'if' is not followed by whitespace. [WhitespaceAround]
+[ERROR] E:\Github\ADS1_2018\m21\22.1 Ransom Note\Solution.java:47:29: '==' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] E:\Github\ADS1_2018\m21\22.1 Ransom Note\Solution.java:47:31: '==' is not followed by whitespace. [WhitespaceAround]
+[ERROR] E:\Github\ADS1_2018\m21\22.1 Ransom Note\Solution.java:48:25: '{' at column 4 should be on the previous line. [LeftCurly]
+[ERROR] E:\Github\ADS1_2018\m21\22.1 Ransom Note\Solution.java:53:19: 'if' is not followed by whitespace. [WhitespaceAround]
+[ERROR] E:\Github\ADS1_2018\m21\22.1 Ransom Note\Solution.java:53:22: '==' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] E:\Github\ADS1_2018\m21\22.1 Ransom Note\Solution.java:53:24: '==' is not followed by whitespace. [WhitespaceAround]
+[ERROR] E:\Github\ADS1_2018\m21\22.1 Ransom Note\Solution.java:54:17: '{' at column 3 should be on the previous line. [LeftCurly]
+[ERROR] E:\Github\ADS1_2018\m21\22.1 Ransom Note\Solution.java:56:17: '}' at column 3 should be on the same line as the next part of a multi-block statement (one that directly contains multiple blocks: if/else-if/else, do/while or try/catch/finally). [RightCurly]
+[ERROR] E:\Github\ADS1_2018\m21\22.1 Ransom Note\Solution.java:58:17: '{' at column 3 should be on the previous line. [LeftCurly]
+[ERROR] E:\Github\ADS1_2018\m21\22.1 Ransom Note\Solution.java:59:19: 'if' is not followed by whitespace. [WhitespaceAround]
+[ERROR] E:\Github\ADS1_2018\m21\22.1 Ransom Note\Solution.java:60:17: '{' at column 3 should be on the previous line. [LeftCurly]
+[ERROR] E:\Github\ADS1_2018\m21\22.1 Ransom Note\Solution.java:61:30: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] E:\Github\ADS1_2018\m21\22.1 Ransom Note\Solution.java:61:31: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] E:\Github\ADS1_2018\m21\22.1 Ransom Note\Solution.java:61:36: '+' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] E:\Github\ADS1_2018\m21\22.1 Ransom Note\Solution.java:61:37: '+' is not followed by whitespace. [WhitespaceAround]
+[ERROR] E:\Github\ADS1_2018\m21\22.1 Ransom Note\Solution.java:63: Line has trailing spaces. [RegexpSingleline]
+[ERROR] E:\Github\ADS1_2018\m21\22.1 Ransom Note\Solution.java:65: Line has trailing spaces. [RegexpSingleline]
+[ERROR] E:\Github\ADS1_2018\m21\22.1 Ransom Note\Solution.java:68:11: 'if' is not followed by whitespace. [WhitespaceAround]
+[ERROR] E:\Github\ADS1_2018\m21\22.1 Ransom Note\Solution.java:68:17: '==' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] E:\Github\ADS1_2018\m21\22.1 Ransom Note\Solution.java:68:19: '==' is not followed by whitespace. [WhitespaceAround]
+[ERROR] E:\Github\ADS1_2018\m21\22.1 Ransom Note\Solution.java:69:9: '{' at column 2 should be on the previous line. [LeftCurly]
+[ERROR] E:\Github\ADS1_2018\m21\22.1 Ransom Note\Solution.java:71:9: '}' at column 2 should be on the same line as the next part of a multi-block statement (one that directly contains multiple blocks: if/else-if/else, do/while or try/catch/finally). [RightCurly]
+[ERROR] E:\Github\ADS1_2018\m21\22.1 Ransom Note\Solution.java:73:9: '{' at column 2 should be on the previous line. [LeftCurly]
+Audit done.
+Checkstyle ends with 119 errors.
+
+
+[master f5b41cd] "check_style_score -> 5 of 6 passed. style score: 0/1 "
+ 4 files changed, 1 insertion(+), 2 deletions(-)
+ rewrite m21/22.1 Ransom Note/Hash1.class (68%)
+ rewrite m21/22.1 Ransom Note/Solution.class (65%)
+
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
