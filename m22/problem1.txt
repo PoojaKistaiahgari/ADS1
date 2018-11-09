@@ -1,0 +1,45 @@
+Fill in the blanks-1
+
+Fill the following blanks in the get method of BST
+
+blank1: null
+blank2: key
+blank3: n
+blank4: key
+blank5: M
+
+Fill in the blanks-2
+
+Answer the following questions on Hashing with Linear Probing 
+When the following keys are inserted into a hash table of size=10. Hash function is calculated as Ascii value%size .
+Keys : E A S Y Q U T I O N
+1. 9 - E
+2. 5 - A
+3. 0 - Y
+4. 0
+5. 2
+6. NO Collision
+7. 1
+8. no index position is empty
+
+Learning by doing-1
+
+Which of the following scenarios leads to expected linear running time for a random search hit in a linear-probing hash table?
+a. All keys hash to the same index.
+b. All keys hash to different indices.
+c. All keys hash to an even-numbered index.
+d. All keys hash to different even-numbered indices. 
+
+Answer: (a) all keys hash to the same index.
+
+
+Learning by doing-2
+
+Suppose that the keys A through G , with the hash values given below, are inserted in some order into an initially empty table of size 7 using a linear-probing table (with no resizing for this problem). Which of the following could not possibly result from inserting these keys?
+
+A-not possible
+B-not possible
+c-not possible
+d-possible
+e-not possible
+f-not possible
